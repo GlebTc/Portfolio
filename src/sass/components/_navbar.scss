@@ -1,7 +1,11 @@
 .nav__container {
-    color: rgb(108, 218, 57);
-    background-color: rgb(148, 150, 148);
-    height: 55px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: var(--Secondary);
+    background-color: rgb(121, 115, 62);
+    height: var(--NavBar__Height);
     display: flex;
     justify-content: stretch;
     align-items: center;
@@ -11,3 +15,4 @@
     margin-left: 25px;
     font-size: 2rem;
 }
+
