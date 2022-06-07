@@ -14,10 +14,6 @@ const Menu__Btns__Array: {id: number, title: string} [] = [
     {
         id: 4,
         title: "Contact"
-    },
-    {
-        id: 5,
-        title: "test button"
     }
 ]
 

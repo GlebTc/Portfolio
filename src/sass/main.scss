@@ -1,13 +1,19 @@
 @import './components/navbar';
 @import './components/reusable__components/navbarbuttons';
+@import './components/home';
+@import './components/about';
+
 
 :root {
-    --buttonBGC: rgb(191, 245, 160);
+    --Secondary: rgb(191, 245, 160);
+    --BGC__Light: rgb(88, 172, 172);
+    --NavBar__Height: 55px;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--Secondary)
 }
 
