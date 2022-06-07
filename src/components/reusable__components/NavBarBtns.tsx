@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
+import Menu__Btns__Array from '../utilities/Menu__Btns__Array'
 
 const NavBarBtns: React.FC = () => {
-
-
-    return(
-        <nav className="nav__container">
-            <h1>Home</h1>
-        </nav>
+    
+    const Buttons__Element = Menu__Btns__Array.map(btn  => {
+        return (
+            <button>{btn.title}</button>
+        )
+    })
+    
+    return (
+        <div className="nav__btns__container">
+            {Buttons__Element}
+        </div>
 
     )
 }

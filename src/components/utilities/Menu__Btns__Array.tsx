@@ -1,4 +1,4 @@
-export const Menu__Btns: {id: number, title: string} [] = [
+const Menu__Btns__Array: {id: number, title: string} [] = [
     {
         id: 1,
         title: "Home"
@@ -14,5 +14,11 @@ export const Menu__Btns: {id: number, title: string} [] = [
     {
         id: 4,
         title: "Contact"
+    },
+    {
+        id: 5,
+        title: "test button"
     }
 ]
+
+export default Menu__Btns__Array

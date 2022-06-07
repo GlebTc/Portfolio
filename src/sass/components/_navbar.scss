@@ -1,8 +1,12 @@
 .nav__container {
     color: rgb(108, 218, 57);
     background-color: rgb(148, 150, 148);
-    height: 50px;
+    height: 55px;
     display: flex;
-    justify-content: center;
+    justify-content: stretch;
     align-items: center;
+}
+
+.nav__container > h1 {
+    margin-left: 25px;
 }

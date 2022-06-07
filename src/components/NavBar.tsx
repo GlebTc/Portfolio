@@ -1,16 +1,24 @@
 import React from "react";
-// import NavBarBtns from './reusable__components/NavBarBtns'
-// import Menu__Btns from './utilities/Menu__Btns'
+import NavBarBtns from './reusable__components/NavBarBtns'
+
 
 
 
 const NavBar: React.FC = () => {
 
-    const Menu__Btns__Element = () => <h1>Menu Btn Element</h1>
+    const Title = () => <h1>Gleb Tc</h1>
+
+    const Menu__Btns__Element = () => {
+        
+        return (
+            <NavBarBtns />
+        )
+    }
 
     return(
         <nav className="nav__container">
-            {Menu__Btns__Element}
+            {Title()}
+            {Menu__Btns__Element()}
         </nav>
 
     )
