@@ -1,6 +1,10 @@
 @import './components/navbar';
 @import './components/reusable__components/navbarbuttons';
 
+:root {
+    --buttonBGC: rgb(191, 245, 160);
+}
+
 *{
     margin: 0;
     padding: 0;

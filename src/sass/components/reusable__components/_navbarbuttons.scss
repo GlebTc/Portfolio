@@ -9,10 +9,13 @@
     margin-right: 8px;
     border: none;
     border-radius: 15px;
-    background-color: rgb(191, 245, 160);
+    background-color: var(--buttonBGC);
+    font-weight: 900;
+    color: rgb(56, 92, 33);
 }
 
 .nav__btns__container > button:hover {
     background-color: aqua;
     transition: 500ms;
+    
 }
