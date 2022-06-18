@@ -1,7 +1,3 @@
-import React from "react"
-
-
-
 const Home = ({title, id}:{title: string, id:string}) => {
     return (
         <section id={id} className="home__container">

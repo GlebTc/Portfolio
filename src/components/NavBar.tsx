@@ -19,18 +19,34 @@ const NavBar: React.FC = () => {
                 </Link>
 
                 <Link
-                
                     to="about"
                     spy={true}
                     smooth={true}
                     duration={500}
+                    offset={-55}
                 >
                     <li className="nav__btn">About</li>
                 </Link>
 
-                <li className="nav__btn">Portfolio</li>
+                <Link
+                    to="portfolio"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    offset={-55}
+                >
+                    <li className="nav__btn">Portfolio</li>
+                </Link>
                 
-                <li className="nav__btn">Contact</li>
+                <Link
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    offset={-55}
+                >
+                    <li className="nav__btn">Contact</li>
+                </Link>
             </ul>
         </nav>
 
