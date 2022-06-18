@@ -1,11 +1,15 @@
-import MainDisplayElement from './components/MainDisplayComponent'
+import NavBar from './components/NavBar'
+import Home from './components/pages__components/Home'
+import About from './components/pages__components/About'
 
 
 
 function App(): JSX.Element {
   return (
     <>
-      <MainDisplayElement />
+        <NavBar />
+        <Home />
+        <About />
     </>
   )
 }
