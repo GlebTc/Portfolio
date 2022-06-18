@@ -1,5 +1,6 @@
 .home__container {
-    height: calc(100vh - var(--NavBar__Height));
-    background-color: var(--BGC__Light);
+    height: calc(100vh/* - var(--NavBar__Height)*/);
+    //background-color: var(--BGC__Light);
+    background-color: green;
     padding-top: var(--NavBar__Height);
 }

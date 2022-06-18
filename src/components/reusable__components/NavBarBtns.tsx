@@ -5,7 +5,7 @@ const NavBarBtns: React.FC = () => {
     
     const Buttons__Element = Menu__Btns__Array.map(btn  => {
         return (
-            <button>{btn.title}</button>
+            <button key={btn.title}>{btn.title}</button>
         )
     })
     
