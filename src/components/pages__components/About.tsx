@@ -2,10 +2,10 @@ import React from "react";
 
 
 
-const About: React.FC = () => {
+const About = ({title, id}:{title:string, id:string}) => {
     return (
-        <section className="about__container">
-            <h1>About</h1>
+        <section id={id} className="about__container">
+            <h1>{title}</h1>
         </section>
     )
 }

@@ -1,11 +1,11 @@
-import React from "react";
+import React from "react"
 
 
 
-const Home: React.FC = () => {
+const Home = ({title, id}:{title: string, id:string}) => {
     return (
-        <section id="home__page"className="home__container">
-            <h1>Home</h1>
+        <section id={id} className="home__container">
+            <h1>{title}</h1>
         </section>
     )
 }

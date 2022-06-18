@@ -4,7 +4,12 @@
     justify-content: space-between;
 }
 
-.nav__btns__container > button {
+.nav__btns__container {
+    list-style-type: none;
+}
+
+.nav__btn {
+    cursor: pointer;
     padding: 7px 25px;
     margin-right: 8px;
     border: none;
@@ -14,7 +19,8 @@
     color: rgb(56, 92, 33);
 }
 
-.nav__btns__container > button:hover {
+.nav__btn:hover,
+.nav__btn > .active {
     background-color: aqua;
     transition: 500ms;
     
