@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import NavBar from './components/NavBar'
 import Home from './components/pages__components/Home'
 import About from './components/pages__components/About'
@@ -11,20 +10,13 @@ import Contact from './components/pages__components/Contact'
 
 function App(): JSX.Element {
 
-  let NavbarAppearance: string
-
-  useEffect(()=> {
-    NavbarAppearance = getComputedStyle(document.documentElement).getPropertyValue('--NavBar__Appearance')
-  }, [])
-
-  const navContainer = document.querySelector('nav__container')
-
+  // Scroll event listener accesses :root properties from the styles and modifies them based on the Y position of the scroll.
   window.addEventListener ('scroll', () => {
     const scrolled = window.scrollY;
     if (scrolled > 50) {
-      document.documentElement.style.setProperty('--NavBar__Appearance', 'rgba(207, 189, 107, 0.2)')
+      document.documentElement.style.setProperty('--NavBar__Display', 'none')
     } else {
-      document.documentElement.style.setProperty('--NavBar__Appearance', 'rgba(207, 189, 107, 1)')
+      document.documentElement.style.setProperty('--NavBar__Display', 'flex')
     }
   })
 

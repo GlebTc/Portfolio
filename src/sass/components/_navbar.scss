@@ -6,12 +6,12 @@
     left: 0;
     width: 100%;
     color: var(--Secondary);
-    background-color: var(--NavBar__Appearance);
+    background-color: rgba(207, 189, 107, 0.5);
     height: var(--NavBar__Height);
-    display: flex;
+    display: var(--NavBar__Display);  
     justify-content: stretch;
     align-items: center;
-    padding: 1rem 15rem;
+    padding: 1rem 5rem;
 }
 
 .nav__container > h1 {
