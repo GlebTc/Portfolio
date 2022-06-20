@@ -1,15 +1,17 @@
+
+
 .nav__container {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     color: var(--Secondary);
-    background-color: rgb(207, 189, 107);
+    background-color: var(--NavBar__Appearance);
     height: var(--NavBar__Height);
     display: flex;
     justify-content: stretch;
     align-items: center;
-    padding: 1rem 25rem;
+    padding: 1rem 15rem;
 }
 
 .nav__container > h1 {
