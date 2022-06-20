@@ -1,7 +1,6 @@
 .contact__container {
     height: calc(100vh - var(--NavBar__Height));
-    // background-color: var(--BGC__Light);
-    background-color: rgb(74, 184, 228);
+    background-color: var(--BGC__Light__Secondary);
     /*padding-top: var(--NavBar__Height);*/
 
 }

@@ -7,8 +7,9 @@
 
 
 :root {
-    --Secondary: rgb(191, 245, 160);
-    --BGC__Light: rgb(88, 172, 172);
+    --Text__Primary: rgb(67, 102, 116);
+    --BGC__Light__Primary: rgb(88, 172, 172);
+    --BGC__Light__Secondary: rgb(88, 172, 92);
     --NavBar__Height: 55px;
 }
 
@@ -16,6 +17,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: var(--Secondary)
+    color: var(--Text__Primary)
 }
 
