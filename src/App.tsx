@@ -1,29 +1,33 @@
-import NavBar from "./components/NavBar"
-import Home from './components/Home'
-import About from './components/About'
+import NavBar from './components/NavBar'
+import Home from './components/pages__components/Home'
+import About from './components/pages__components/About'
+import Portfolio from './components/pages__components/Portfolio'
+import Contact from './components/pages__components/Contact'
+
+
+
 
 
 function App(): JSX.Element {
-
-  const Main__Display__Element = () => {
-    return (
-      <>
-        <NavBar />
-        <Home />
-        <About />
-      </>
-    )
-  }
-
-  window.onscroll = () => {
-      
-  }
-
-  
-
   return (
     <>
-      {Main__Display__Element}
+        <NavBar />
+        <Home 
+          title = "Home"
+          id="home"
+        />
+        <About 
+          title = "About"
+          id="about"
+        />
+        <Portfolio 
+          title = "Portfolio"
+          id="portfolio"
+        />
+        <Contact 
+          title = "Contact"
+          id="contact"
+        />
     </>
   )
 }
