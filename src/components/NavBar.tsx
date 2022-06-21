@@ -1,15 +1,20 @@
 import React from "react";
+
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse, faUser, faSuitcase, faAddressCard } from '@fortawesome/free-solid-svg-icons'
+import { faHouse, faUser, faSuitcase, faAddressCard, faAt, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons' 
 import { Link, /*animateScroll as scroll*/ } from "react-scroll"; //https://www.digitalocean.com/community/tutorials/how-to-implement-smooth-scrolling-in-react
+
 
 
 const NavBar: React.FC = () => {
 
     return(
         <>
+
+{/* -------------------------------Start Main NavBar------------------------------- */}
             <nav className="nav__container nav__container__display">
-            <h1>Gleb Tc</h1>
             <ul className="nav__links__container">
                 <Link
                     activeClass="active"
@@ -56,8 +61,25 @@ const NavBar: React.FC = () => {
                 </Link>
             </ul>
         </nav>
-        <nav className="nav__side__container nav__side__container__display">
-            <ul className="nav__links__side__container">
+{/* -------------------------------END Main NavBar------------------------------- */}
+
+
+
+{/* -------------------------------START Side NavBar------------------------------- */}
+        <nav className="nav__right__side__container nav__side__container__display">
+            <ul className="nav__links__right__side__container">
+                <Link
+                    activeClass="active"
+                    to="home"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    offset={0}
+                >                
+                <img src="portrait.jpg" alt="Gleb Tchani" id="portrait"/>
+                </Link>
+
+
                 <Link
                     activeClass="active"
                     to="home"
@@ -103,7 +125,20 @@ const NavBar: React.FC = () => {
                 </Link>
             </ul>
         </nav>
+{/* -------------------------------END Side NavBar-------------------------------*/}
 
+
+
+{/* -------------------------------START Left Side Links------------------------------- */}
+        <nav className="nav__left__side__container links__side__container__display">
+            <ul className="nav__links__left__side__container">
+                <li className="nav__side__link"><FontAwesomeIcon icon={faLinkedin} /></li>
+                <li className="nav__side__link"><FontAwesomeIcon icon={faGithub} /></li>
+                <li className="nav__side__link"><FontAwesomeIcon icon={faAt} /></li>
+                <li className="nav__side__link"><FontAwesomeIcon icon={faPhone} /></li>             
+            </ul>
+        </nav>
+{/* -------------------------------End Left Side Links------------------------------- */}
         </>
     )
 }

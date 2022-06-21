@@ -1,4 +1,6 @@
-.nav__side__container__display {
+
+.nav__side__container__display,
+.links__side__container__display {
     display: none;
 }
 
@@ -20,12 +22,24 @@
     color: var(--Text__Primary);
 }
 
+// ------------------------------------Mobile Screen---------------------------
+
 @media screen and (max-width: 800px) {
+    #portrait {
+        height: 55px;
+        width: auto;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+    
+    
     .nav__container {
         display: none;
     }
 
-    .nav__side__container__display {
+    .nav__side__container__display,
+    .links__side__container__display 
+    {
         display: flex;
         background-color: var(--NavBar__Display);
         flex-direction: column;
@@ -39,7 +53,16 @@
         border-radius: 25px;
     }
 
-    .nav__links__side__container {
+    .links__side__container__display
+    {
+        position: fixed;
+        top: 10%;
+        left: 5px;
+    }
+
+    .nav__links__right__side__container,
+    .nav__links__left__side__container
+    {
         height: 100%;
         width: 100%;
         display: flex;
@@ -47,6 +70,11 @@
         list-style: none;
         align-items: center;
         justify-content: space-around;
+    }
+
+    .nav__links__left__side__container {
+        padding-top: 50px;
+        font-size: 1.2rem;
     }
 
     .nav__side__link {
