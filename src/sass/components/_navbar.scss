@@ -1,14 +1,15 @@
-
+.nav__side__container__display {
+    display: none;
+}
 
 .nav__container {
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     color: var(--Secondary);
-    background-color: rgba(207, 189, 107, 0.5);
+    background-color: var(--NavBar__Display);
+    transition: 2000ms;
     height: var(--NavBar__Height);
-    display: var(--NavBar__Display);  
+    display: flex;  
     justify-content: stretch;
     align-items: center;
     padding: 1rem 5rem;
@@ -17,5 +18,39 @@
 .nav__container > h1 {
     margin-left: 25px;
     font-size: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+    .nav__container {
+        display: none;
+    }
+
+    .nav__side__container__display {
+        display: flex;
+        background-color: var(--NavBar__Display);
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 100px;
+        height: 50%;
+        position: fixed;
+        top: 10%;
+        right: 0;
+    }
+
+    .nav__links__side__container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .nav__side__link {
+        cursor: pointer;
+        color: rgb(233, 224, 245);
+    }
 }
 

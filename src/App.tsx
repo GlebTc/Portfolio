@@ -14,9 +14,9 @@ function App(): JSX.Element {
   window.addEventListener ('scroll', () => {
     const scrolled = window.scrollY;
     if (scrolled > 50) {
-      document.documentElement.style.setProperty('--NavBar__Display', 'none')
+      document.documentElement.style.setProperty('--NavBar__Display', 'rgba(92, 41, 231, 0.1)')
     } else {
-      document.documentElement.style.setProperty('--NavBar__Display', 'flex')
+      document.documentElement.style.setProperty('--NavBar__Display', 'rgba(92, 41, 231, 0.6)')
     }
   })
 

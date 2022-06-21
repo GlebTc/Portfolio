@@ -3,3 +3,9 @@
     background-color: var(--BGC__Light__Primary);
     padding-top: var(--NavBar__Height);
 }
+
+@media screen and (max-width: 800px) {
+    .home__container {
+        padding-top: 0;
+    }
+}

@@ -7,11 +7,11 @@
 
 
 :root {
-    --Text__Primary: rgb(67, 102, 116);
+    --Text__Primary: rgb(150, 202, 195);
     --BGC__Light__Primary: rgb(88, 172, 172);
     --BGC__Light__Secondary: rgb(88, 172, 92);
     --NavBar__Height: 55px;
-    --NavBar__Display: flex;
+    --NavBar__Display: rgba(92, 41, 231, 0.6);
 }
 
 *{
@@ -22,6 +22,16 @@
 }
 
 .main__container {
-    padding: 0 5px;
+    background-color: rgba(188, 165, 241, 0.8);
+}
+
+
+@media screen and (max-width: 800px) {
+    .about__container,
+    .portfolio__container,
+    .contact__container 
+    {
+        height: 100vh;
+    }
 }
 
