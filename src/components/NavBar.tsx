@@ -64,7 +64,7 @@ const NavBar: React.FC = () => {
                     spy={true}
                     smooth={true}
                     duration={500}
-                    offset={-55}
+                    offset={0}
                 >
                     <li className="nav__side__link"><FontAwesomeIcon icon={faHouse} /></li>
                 </Link>
@@ -75,7 +75,7 @@ const NavBar: React.FC = () => {
                     spy={true}
                     smooth={true}
                     duration={500}
-                    offset={-55}
+                    offset={0}
                 >
                     <li className="nav__side__link"><FontAwesomeIcon icon={faUser} /></li>
                 </Link>
@@ -86,7 +86,7 @@ const NavBar: React.FC = () => {
                     spy={true}
                     smooth={true}
                     duration={500}
-                    offset={-55}
+                    offset={0}
                 >
                     <li className="nav__side__link"><FontAwesomeIcon icon={faSuitcase} /></li>
                 </Link>
@@ -97,7 +97,7 @@ const NavBar: React.FC = () => {
                     spy={true}
                     smooth={true}
                     duration={500}
-                    offset={-55}
+                    offset={0}
                 >
                     <li className="nav__side__link"><FontAwesomeIcon icon={faAddressCard} /></li>
                 </Link>
