@@ -2,10 +2,29 @@
     height: calc(100vh/* - var(--NavBar__Height)*/);
     background-color: var(--BGC__Light__Primary);
     padding-top: var(--NavBar__Height);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.introduction{
+    width: 75%;
+    height: 75%;
+    margin: 5% 0 0 5%;
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: var(--Btn__BGC);
+}
+
+.introduction span {
+    font-weight: 700;
+    color: white;
 }
 
 @media screen and (max-width: 800px) {
-    .home__container {
-        padding-top: 0;
+
+    .introduction ul {
+        list-style-type: none;
     }
 }
