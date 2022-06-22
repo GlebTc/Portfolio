@@ -15,6 +15,12 @@ const NavBar: React.FC = () => {
 
 {/* -------------------------------Start Main NavBar------------------------------- */}
             <nav className="nav__container nav__container__display">
+            <ul className="nav__social__links">
+                <li className="nav__side__link"><a href="https://www.linkedin.com/in/glebtc/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                <li className="nav__side__link"><a href="https://github.com/GlebTc"><FontAwesomeIcon icon={faGithub} /></a></li>
+                <li className="nav__side__link"><FontAwesomeIcon icon={faAt} /></li>
+                <li className="nav__side__link"><FontAwesomeIcon icon={faPhone} /></li>             
+            </ul>
             <ul className="nav__links__container">
                 <Link
                     activeClass="active"
@@ -132,8 +138,8 @@ const NavBar: React.FC = () => {
 {/* -------------------------------START Left Side Links------------------------------- */}
         <nav className="nav__left__side__container links__side__container__display">
             <ul className="nav__links__left__side__container">
-                <li className="nav__side__link"><FontAwesomeIcon icon={faLinkedin} /></li>
-                <li className="nav__side__link"><FontAwesomeIcon icon={faGithub} /></li>
+                <li className="nav__side__link"><a href="https://www.linkedin.com/in/glebtc/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                <li className="nav__side__link"><a href="https://github.com/GlebTc"><FontAwesomeIcon icon={faGithub} /></a></li>
                 <li className="nav__side__link"><FontAwesomeIcon icon={faAt} /></li>
                 <li className="nav__side__link"><FontAwesomeIcon icon={faPhone} /></li>             
             </ul>
