@@ -1,11 +1,12 @@
-const Home = ({title, id,}:{title: string, id:string}) => {
+const Home = ({title, id}:{title: string, id:string}) => {
     return (
         <section id={id} className="home__container">
+            <h1>Home Page</h1>
             <p className="introduction" id={title}>
                 Hello, <br /><br />
                 Welcome to my website, <br /><br />
 
-                My name is <span>Gleb Tchani</span> and I am a self-taught developer in the early stages of my career.  I have approximately 2 years of eperience working with frontend technologies.  First year was mostly spent using Youtube.  In September 2021, I have decided to emerge deeper and signed up for a "The Frontend Developer Career Path" through Scrimba.  In this course I covered the following technologies: <br /><br />
+                My name is <span>Gleb Tchani</span> and I am a self-taught software developer in the early stages of my career.  I have approximately 2 years of eperience working with various frontend technologies.<br /><br />
                 <ul>
                     <li><span>HTML 5</span></li>
                     <li><span>CSS 3</span></li>

@@ -4,10 +4,10 @@
 @import './components/portfolio';
 @import './components/contact';
 @import './components/button';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
 
 :root {
-
     --NavBar__Height: 55px;
     --BGC__Light__Primary: rgba(92, 41, 231, 0.2);
     --BGC__Light__Secondary: rgba(92, 41, 231, 0.4);
@@ -16,6 +16,7 @@
 }
 
 *{
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,7 +25,8 @@
 
 h1
 {
-    color: var(--Text__Primary)
+    color: var(--Text__Primary);
+    text-align: center;
 }
 .main__container {
     background-color: rgba(188, 165, 241, 0.8);
