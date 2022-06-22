@@ -2,7 +2,7 @@ import React from "react";
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse, faUser, faSuitcase, faAddressCard, faAt, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faHouse, faUser, faSuitcase, faAddressCard, faAt, faPhone, faFilePdf } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons' 
 import { Link, /*animateScroll as scroll*/ } from "react-scroll"; //https://www.digitalocean.com/community/tutorials/how-to-implement-smooth-scrolling-in-react
 
@@ -16,6 +16,7 @@ const NavBar: React.FC = () => {
 {/* -------------------------------Start Main NavBar------------------------------- */}
             <nav className="nav__container nav__container__display">
             <ul className="nav__social__links">
+                <li className="nav__side__link"><a href="https://file.io/cKkb2hMNz1n8"><FontAwesomeIcon icon={faFilePdf} /></a></li>  
                 <li className="nav__side__link"><a href="https://www.linkedin.com/in/glebtc/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
                 <li className="nav__side__link"><a href="https://github.com/GlebTc"><FontAwesomeIcon icon={faGithub} /></a></li>
                 <li className="nav__side__link"><FontAwesomeIcon icon={faAt} /></li>
@@ -138,6 +139,7 @@ const NavBar: React.FC = () => {
 {/* -------------------------------START Left Side Links------------------------------- */}
         <nav className="nav__left__side__container links__side__container__display">
             <ul className="nav__links__left__side__container">
+                <li className="nav__side__link"><a href="https://file.io/cKkb2hMNz1n8"><FontAwesomeIcon icon={faFilePdf} /></a></li>  
                 <li className="nav__side__link"><a href="https://www.linkedin.com/in/glebtc/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
                 <li className="nav__side__link"><a href="https://github.com/GlebTc"><FontAwesomeIcon icon={faGithub} /></a></li>
                 <li className="nav__side__link"><FontAwesomeIcon icon={faAt} /></li>

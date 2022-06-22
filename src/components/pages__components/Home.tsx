@@ -5,7 +5,7 @@ const Home = ({title, id,}:{title: string, id:string}) => {
                 Hello, <br /><br />
                 Welcome to my website, <br /><br />
 
-                My name is Gleb Tchani and I am a self-taught developer in the early stages of my career.  I have approximately 2 years of eperience working with frontend technologies.  First year was mostly spent using Youtube.  In September 2021, I have decided to emerge deeper and signed up for a "The Frontend Developer Career Path" through Scrimba.  In this course I covered the following technologies: <br /><br />
+                My name is <span>Gleb Tchani</span> and I am a self-taught developer in the early stages of my career.  I have approximately 2 years of eperience working with frontend technologies.  First year was mostly spent using Youtube.  In September 2021, I have decided to emerge deeper and signed up for a "The Frontend Developer Career Path" through Scrimba.  In this course I covered the following technologies: <br /><br />
                 <ul>
                     <li><span>HTML 5</span></li>
                     <li><span>CSS 3</span></li>

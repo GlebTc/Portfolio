@@ -17,6 +17,7 @@
 }
 
 .nav__social__links {
+    cursor: pointer;
     display: flex;
     list-style: none;
     width: 25%;
@@ -86,7 +87,6 @@
     }
 
     .nav__links__left__side__container {
-        padding-top: 140px;
         font-size: 1.2rem;
     }
 

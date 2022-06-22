@@ -9,7 +9,7 @@
 
 .introduction{
     width: 75%;
-    height: 75%;
+    height: auto;
     padding: 2%;
     margin-top: 50px;
     border: 1px solid black;
@@ -26,5 +26,9 @@
 
     .introduction ul {
         list-style-type: none;
+    }
+
+    .introduction {
+        min-height: 70%;
     }
 }
