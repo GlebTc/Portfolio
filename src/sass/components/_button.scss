@@ -36,11 +36,13 @@
 
 
 // ************************Side Bar Menu **************************//
-.nav__side__link {
+.nav__side__link,
+.nav__links__left__side__container a:visited {
     color: var(--Text__Primary);
 }
 
-.nav__side__link:hover
+.nav__side__link:hover,
+.nav__side__link a:hover
 {
     border-radius: 50px;
     color: rgba(0, 255, 255, 0.6);
@@ -52,3 +54,5 @@
     color: rgba(0, 255, 255, 0.6);
     transition: 500ms; 
 }
+
+

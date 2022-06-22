@@ -16,6 +16,18 @@
     padding: 1rem 5rem;
 }
 
+.nav__social__links {
+    display: flex;
+    list-style: none;
+    width: 25%;
+    justify-content: space-around;
+    font-size: 1.7rem;
+}
+
+.nav__social__links a:visited {
+    color: var(--Text__Primary);
+}
+
 .nav__container > h1 {
     margin-left: 25px;
     font-size: 2rem;
@@ -48,8 +60,9 @@
         width: 50px;
         height: 50%;
         position: fixed;
+        margin: 10px;
         top: 10%;
-        right: 5px;
+        right: 10px;
         border-radius: 25px;
     }
 
@@ -57,7 +70,7 @@
     {
         position: fixed;
         top: 10%;
-        left: 5px;
+        left: 10px;
     }
 
     .nav__links__right__side__container,
@@ -73,7 +86,7 @@
     }
 
     .nav__links__left__side__container {
-        padding-top: 50px;
+        padding-top: 140px;
         font-size: 1.2rem;
     }
 

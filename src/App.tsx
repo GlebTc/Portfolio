@@ -10,6 +10,9 @@ import Contact from './components/pages__components/Contact'
 
 function App(): JSX.Element {
 
+  window.onload = () => {
+    document.documentElement.style.setProperty('--NavBar__Display', 'rgba(92, 41, 231, 0.6)')
+  }       
   // Scroll event listener accesses :root properties from the styles and modifies them based on the Y position of the scroll.
   window.addEventListener ('scroll', () => {
     const scrolled = window.scrollY;
