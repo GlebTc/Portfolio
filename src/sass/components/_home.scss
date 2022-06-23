@@ -9,7 +9,7 @@
 }
 
 .home__container h1 {
-    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 0px;
 }
 
@@ -38,5 +38,9 @@
         min-height: 70%;
         width: auto;
         margin: 25px 20%;
+    }
+
+    .home__container {
+        padding-top: 0;
     }
 }

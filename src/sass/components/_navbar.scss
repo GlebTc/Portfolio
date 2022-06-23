@@ -93,5 +93,9 @@
     .nav__side__link {
         cursor: pointer;
     }
+
+    .nav__social__links a:visited {
+        color: var(--Text__Primary);
+    }
 }
 

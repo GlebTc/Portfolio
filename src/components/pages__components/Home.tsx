@@ -6,7 +6,7 @@ const Home = ({title, id}:{title: string, id:string}) => {
                 Hello, <br /><br />
                 Welcome to my website, <br /><br />
 
-                My name is <span>Gleb Tchani</span> and I am a self-taught software developer in the early stages of my career.  I have approximately 2 years of eperience working with various frontend technologies.<br /><br />
+                My name is <span>Gleb Tchani</span> and I am a self-taught software developer in the early stages of my career.  I have approximately 2 years of experience working with various frontend technologies.<br /><br />
                 <ul>
                     <li><span>HTML 5</span></li>
                     <li><span>CSS 3</span></li>
