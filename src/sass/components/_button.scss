@@ -37,6 +37,7 @@
 
 // ************************Side Bar Menu **************************//
 .nav__side__link,
+.nav__side__link a:visited,
 .nav__links__left__side__container a:visited {
     color: var(--Text__Primary);
 }
