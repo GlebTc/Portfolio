@@ -2,5 +2,13 @@
     height: calc(100vh - var(--NavBar__Height));
     background-color: var(--BGC__Light__Secondary);
     /*padding-top: var(--NavBar__Height);*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
 
+.contact__container h1 {
+    padding-top: 20px;
+    margin-bottom: 0px;
 }

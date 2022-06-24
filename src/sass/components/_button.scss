@@ -38,8 +38,13 @@
 // ************************Side Bar Menu **************************//
 .nav__side__link,
 .nav__side__link a:visited,
-.nav__links__left__side__container a:visited {
+.nav__links__left__side__container a:visited,
+.nav__social__links a:visited,
+.fa-at,
+.fa-linkedin
+{
     color: var(--Text__Primary);
+    cursor: pointer;
 }
 
 .nav__side__link:hover,
@@ -55,5 +60,4 @@
     color: rgba(0, 255, 255, 0.6);
     transition: 500ms; 
 }
-
 

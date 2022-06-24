@@ -19,7 +19,7 @@ const NavBar: React.FC = () => {
                 <li className="nav__side__link"><a href="https://file.io/cKkb2hMNz1n8" target="_blank"><FontAwesomeIcon icon={faFilePdf} /></a></li>  
                 <li className="nav__side__link"><a href="https://www.linkedin.com/in/glebtc/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a></li>
                 <li className="nav__side__link"><a href="https://github.com/GlebTc" target="_blank"><FontAwesomeIcon icon={faGithub} /></a></li>
-                <li className="nav__side__link"><FontAwesomeIcon icon={faAt} /></li>
+                <li className="nav__side__link"><a href="mailto:gleb.tchani@gmail.com"><FontAwesomeIcon icon={faAt} /></a></li>
                 <li className="nav__side__link"><FontAwesomeIcon icon={faPhone} /></li>             
             </ul>
             <ul className="nav__links__container">
