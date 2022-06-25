@@ -14,13 +14,13 @@ const NavBar: React.FC = () => {
         <>
 
 {/* -------------------------------Start Main NavBar------------------------------- */}
-            <nav className="nav__container nav__container__display">
+        <nav className="nav__container nav__container__display">
             <ul className="nav__social__links">
-                <li className="nav__side__link"><a href="https://file.io/cKkb2hMNz1n8" target="_blank"><FontAwesomeIcon icon={faFilePdf} /></a></li>  
-                <li className="nav__side__link"><a href="https://www.linkedin.com/in/glebtc/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a></li>
-                <li className="nav__side__link"><a href="https://github.com/GlebTc" target="_blank"><FontAwesomeIcon icon={faGithub} /></a></li>
-                <li className="nav__side__link"><a href="mailto:gleb.tchani@gmail.com"><FontAwesomeIcon icon={faAt} /></a></li>
-                <li className="nav__side__link"><FontAwesomeIcon icon={faPhone} /></li>             
+                <li className="nav__side__link"><a href="https://file.io/cKkb2hMNz1n8" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFilePdf} /></a></li>  
+                <li className="nav__side__link"><a href="https://www.linkedin.com/in/glebtc/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                <li className="nav__side__link"><a href="https://github.com/GlebTc" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a></li>
+                <li className="nav__side__link"><a href="mailto:gleb.tchani@gmail.com" rel="noreferrer"><FontAwesomeIcon icon={faAt} /></a></li>
+                <li className="nav__side__link"><a href="tel:+19057304227" rel="noreferrer"><FontAwesomeIcon icon={faPhone} /></a></li>             
             </ul>
             <ul className="nav__links__container">
                 <Link
