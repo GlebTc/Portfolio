@@ -3,7 +3,6 @@
 @import './components/about';
 @import './components/portfolio';
 @import './components/contact';
-@import './components/button';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
 
@@ -21,24 +20,5 @@
     padding: 0;
     box-sizing: border-box;
     
-}
-
-h1
-{
-    color: var(--Text__Primary);
-    text-align: center;
-}
-.main__container {
-    background-color: rgba(188, 165, 241, 0.8);
-}
-
-
-@media screen and (max-width: 800px) {
-    .about__container,
-    .portfolio__container,
-    .contact__container 
-    {
-        height: 100vh;
-    }
 }
 

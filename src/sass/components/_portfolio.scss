@@ -1,14 +1,38 @@
-.portfolio__container {
-    height: calc(100vh - var(--NavBar__Height));
+.portfolio {
+    height: calc(100vh/* - var(--NavBar__Height)*/);
     background-color: var(--BGC__Light__Primary);
-    /*padding-top: var(--NavBar__Height);*/
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
 }
 
-.portfolio__container h1 {
+.portfolio h1 {
     padding-top: 20px;
     margin-bottom: 0px;
+}
+
+.portfolio-gallery {
+    width: 75%;
+    height: auto;
+    padding: 2%;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: var(--Btn__BGC);
+}
+
+.portfolio-gallery img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 800px) {
+
+    .portfolio-gallery {
+        min-height: 70%;
+        width: auto;
+        margin: 25px 20%;
+    }
+
 }

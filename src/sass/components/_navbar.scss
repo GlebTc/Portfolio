@@ -1,4 +1,3 @@
-
 .nav__side__container__display,
 .links__side__container__display {
     display: none;
@@ -7,45 +6,79 @@
 .nav__container {
     position: fixed;
     width: 100%;
+    height: 100%;
     background-color: var(--NavBar__Display);
-    transition: 2000ms;
     height: var(--NavBar__Height);
-    display: flex;  
-    justify-content: stretch;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    padding: 1rem 5rem;
+    color: var(--Text__Primary);
+}
+.nav__social__links,
+.nav__links__container
+{
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
 }
 
-.nav__social__links {
+/*--------------------------------Navigation Links--------------------------------*/
+.nav__link
+{
     cursor: pointer;
+    padding: 7px 25px;
+    margin: 0 4px;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--Btn__BGC);
+    font-weight: 900;
+    color: var(--Text__Primary);
+    
+}
+
+.active .nav__link
+{
+    cursor: pointer;
+    padding: 7px 25px;
+    margin: 0 4px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(0, 255, 255, 0.6);
+    font-weight: 900;
+}
+
+.active {
+    text-decoration: none;
+}
+
+.nav__link:hover
+{
+    background-color: rgba(0, 255, 255, 0.6);
+    transition: 500ms;   
+}
+
+
+/*--------------------------------Social Media Links--------------------------------*/
+.nav__social__links {
     display: flex;
     list-style: none;
     width: 25%;
     justify-content: space-around;
+    align-items: center;
     font-size: 1.7rem;
 }
 
-.nav__social__links a:visited {
-    color: var(--Text__Primary);
+.nav__social__links .nav__side__link a:hover {
+    color: rgba(0, 255, 255, 0.6);
+    transition: 500ms; 
 }
 
-.nav__container > h1 {
-    margin-left: 25px;
-    font-size: 2rem;
-    color: var(--Text__Primary);
-}
-
-// ------------------------------------Mobile Screen---------------------------
-
+/*--------------------------------MOBILE--------------------------------*/
 @media screen and (max-width: 800px) {
-    #portrait {
-        height: 55px;
-        width: auto;
-        border-radius: 25px;
-        cursor: pointer;
-    }
-    
-    
     .nav__container {
         display: none;
     }
@@ -67,6 +100,13 @@
         border-radius: 25px;
     }
 
+    #portrait {
+        height: 55px;
+        width: auto;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+
     .links__side__container__display
     {
         position: fixed;
@@ -84,10 +124,37 @@
         list-style: none;
         align-items: center;
         justify-content: space-around;
+        margin: 0;
+        padding: 0;
     }
 
     .nav__links__left__side__container {
         font-size: 1.2rem;
     }
+
+    .nav__side__link a:visited{
+        color: var(--Text__Primary);
+    }
+
+    .nav__side__link:hover,
+    .nav__side__link a:hover
+    {
+        cursor: pointer;
+        border-radius: 50px;
+        color: rgba(0, 255, 255, 0.6);
+        transition: 500ms; 
+    }
+
+    .active .nav__side__link
+{
+    cursor: pointer;
+    border-radius: 15px;
+    color: rgba(0, 255, 255, 0.6);
+    font-weight: 900;
 }
 
+.active {
+    text-decoration: none;
+}
+    
+}

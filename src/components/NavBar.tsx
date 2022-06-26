@@ -12,9 +12,8 @@ const NavBar: React.FC = () => {
 
     return(
         <>
-
 {/* -------------------------------Start Main NavBar------------------------------- */}
-        <nav className="nav__container nav__container__display">
+        <nav className="nav__container">
             <ul className="nav__social__links">
                 <li className="nav__side__link"><a href="https://file.io/cKkb2hMNz1n8" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFilePdf} /></a></li>  
                 <li className="nav__side__link"><a href="https://www.linkedin.com/in/glebtc/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a></li>
@@ -28,7 +27,7 @@ const NavBar: React.FC = () => {
                     to="home"
                     spy={true}
                     smooth={true}
-                    duration={500}
+                    duration={200}
                     offset={-55}
                 >
                     <li className="nav__link">Home</li>
@@ -39,7 +38,7 @@ const NavBar: React.FC = () => {
                     to="about"
                     spy={true}
                     smooth={true}
-                    duration={500}
+                    duration={200}
                     offset={-55}
                 >
                     <li className="nav__link">About</li>
@@ -50,7 +49,7 @@ const NavBar: React.FC = () => {
                     to="portfolio"
                     spy={true}
                     smooth={true}
-                    duration={500}
+                    duration={200}
                     offset={-55}
                 >
                     <li className="nav__link">Portfolio</li>
@@ -61,7 +60,7 @@ const NavBar: React.FC = () => {
                     to="contact"
                     spy={true}
                     smooth={true}
-                    duration={500}
+                    duration={200}
                     offset={-55}
                 >
                     <li className="nav__link">Contact</li>
@@ -80,7 +79,7 @@ const NavBar: React.FC = () => {
                     to="home"
                     spy={true}
                     smooth={true}
-                    duration={500}
+                    duration={200}
                     offset={0}
                 >                
                 <img src="portrait.jpg" alt="Gleb Tchani" id="portrait"/>
@@ -92,7 +91,7 @@ const NavBar: React.FC = () => {
                     to="home"
                     spy={true}
                     smooth={true}
-                    duration={500}
+                    duration={200}
                     offset={0}
                 >
                     <li className="nav__side__link"><FontAwesomeIcon icon={faHouse} /></li>
@@ -103,7 +102,7 @@ const NavBar: React.FC = () => {
                     to="about"
                     spy={true}
                     smooth={true}
-                    duration={500}
+                    duration={200}
                     offset={0}
                 >
                     <li className="nav__side__link"><FontAwesomeIcon icon={faUser} /></li>
@@ -114,7 +113,7 @@ const NavBar: React.FC = () => {
                     to="portfolio"
                     spy={true}
                     smooth={true}
-                    duration={500}
+                    duration={200}
                     offset={0}
                 >
                     <li className="nav__side__link"><FontAwesomeIcon icon={faSuitcase} /></li>
@@ -125,7 +124,7 @@ const NavBar: React.FC = () => {
                     to="contact"
                     spy={true}
                     smooth={true}
-                    duration={500}
+                    duration={200}
                     offset={0}
                 >
                     <li className="nav__side__link"><FontAwesomeIcon icon={faAddressCard} /></li>

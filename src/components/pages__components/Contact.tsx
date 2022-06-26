@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container, Form } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 
 const Contact = ({title, id}:{title: string, id:string}) => {
 
@@ -20,10 +20,7 @@ const Contact = ({title, id}:{title: string, id:string}) => {
     }
 
     return (
-        <Container>
-
-
-        <div className="contact-container">
+        <div className="contact">
             <div className="contact-title">
                 <h1>{title}</h1>
             </div>
@@ -54,7 +51,6 @@ const Contact = ({title, id}:{title: string, id:string}) => {
                 <p>{success}</p>
             </div>
         </div>
-        </Container>
     )
 }
 
