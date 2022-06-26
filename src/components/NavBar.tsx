@@ -141,8 +141,8 @@ const NavBar: React.FC = () => {
                 <li className="nav__side__link"><a href="https://file.io/cKkb2hMNz1n8"><FontAwesomeIcon icon={faFilePdf} /></a></li>  
                 <li className="nav__side__link"><a href="https://www.linkedin.com/in/glebtc/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
                 <li className="nav__side__link"><a href="https://github.com/GlebTc"><FontAwesomeIcon icon={faGithub} /></a></li>
-                <li className="nav__side__link"><FontAwesomeIcon icon={faAt} /></li>
-                <li className="nav__side__link"><FontAwesomeIcon icon={faPhone} /></li>             
+                <li className="nav__side__link"><a href="mailto:gleb.tchani@gmail.com" rel="noreferrer"><FontAwesomeIcon icon={faAt} /></a></li>
+                <li className="nav__side__link"><a href="tel:+19057304227" rel="noreferrer"><FontAwesomeIcon icon={faPhone} /></a></li>             
             </ul>
         </nav>
 {/* -------------------------------End Left Side Links------------------------------- */}

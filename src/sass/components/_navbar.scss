@@ -36,8 +36,6 @@
     border-radius: 15px;
     background-color: var(--Btn__BGC);
     font-weight: 900;
-    color: var(--Text__Primary);
-    
 }
 
 .active .nav__link
@@ -70,6 +68,7 @@
     justify-content: space-around;
     align-items: center;
     font-size: 1.7rem;
+    color: var(--Text__Primary);
 }
 
 .nav__social__links .nav__side__link a:hover {
@@ -132,7 +131,9 @@
         font-size: 1.2rem;
     }
 
-    .nav__side__link a:visited{
+    .nav__side__link,
+    .nav__side__link:visited
+    {
         color: var(--Text__Primary);
     }
 
