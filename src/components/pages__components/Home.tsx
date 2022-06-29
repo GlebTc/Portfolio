@@ -3,8 +3,7 @@ const Home = ({title, id}:{title: string, id:string}) => {
         <section id={id} className="home__container">
             <h1>{title}</h1>
             <p className="introduction" id={title}>
-                Hello, <br /><br />
-                Welcome to my website, <br /><br />
+                Welcome to my website, <br />
 
                 My name is <span>Gleb Tchani</span> and I am a self-taught software developer in the early stages of my career.  I have approximately 2 years of experience working with various frontend technologies.<br /><br />
                 <ul>

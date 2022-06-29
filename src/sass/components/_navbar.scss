@@ -147,15 +147,23 @@
     }
 
     .active .nav__side__link
-{
-    cursor: pointer;
-    border-radius: 15px;
-    color: rgba(0, 255, 255, 0.6);
-    font-weight: 900;
-}
+    {
+        cursor: pointer;
+        border-radius: 15px;
+        color: rgba(0, 255, 255, 0.6);
+        font-weight: 900;
+    }
 
-.active {
-    text-decoration: none;
-}
+    .active {
+        text-decoration: none;
+    }
     
+    .fa-file-pdf,
+    .fa-linkedin,
+    .fa-github,
+    .fa-at,
+    .fa-phone
+    {
+        color: var(--Text__Primary)
+    }
 }

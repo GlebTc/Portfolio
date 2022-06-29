@@ -1,5 +1,5 @@
 .contact {
-    height: calc(100vh - var(--NavBar__Height));
+    height: calc(100vh/* - var(--NavBar__Height)*/);
     background-color: var(--BGC__Light__Secondary);
     display: flex;
     flex-direction: column;
@@ -20,4 +20,12 @@
     border: 1px solid black;
     border-radius: 25px;
     background-color: var(--Btn__BGC);
+}
+
+@media screen and (max-width: 800px) {
+    .contact-form {
+        min-height: 70%;
+        width: auto;
+        margin: 25px 20%;
+    }
 }
