@@ -85,6 +85,15 @@
     color: var(--Text__Primary)
 }
 
+.fa-file-pdf:hover,
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-at:hover,
+.fa-phone:hover
+{
+    color: rgba(0, 255, 255, 0.6);
+}
+
 /*--------------------------------MOBILE--------------------------------*/
 @media screen and (max-width: 800px) {
     .nav__container {
@@ -174,5 +183,14 @@
     .fa-phone
     {
         color: var(--Text__Primary)
+    }
+
+    .fa-file-pdf:hover,
+    .fa-linkedin:hover,
+    .fa-github:hover,
+    .fa-at:hover,
+    .fa-phone:hover
+    {
+        color: rgba(0, 255, 255, 0.6);
     }
 }
