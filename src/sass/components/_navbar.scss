@@ -76,6 +76,15 @@
     transition: 500ms; 
 }
 
+.fa-file-pdf,
+.fa-linkedin,
+.fa-github,
+.fa-at,
+.fa-phone
+{
+    color: var(--Text__Primary)
+}
+
 /*--------------------------------MOBILE--------------------------------*/
 @media screen and (max-width: 800px) {
     .nav__container {
