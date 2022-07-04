@@ -138,7 +138,7 @@ const NavBar: React.FC = () => {
 {/* -------------------------------START Left Side Links------------------------------- */}
         <nav className="nav__left__side__container links__side__container__display">
             <ul className="nav__links__left__side__container">
-                <li className="nav__side__link"><a href="https://file.io/cKkb2hMNz1n8"><FontAwesomeIcon icon={faFilePdf} /></a></li>  
+                <li className="nav__side__link"><a href="https://www.dropbox.com/s/rb03agfbz3v9utt/Gle%20Tchani%20-%20Resume.pdf?dl=0"><FontAwesomeIcon icon={faFilePdf} /></a></li>  
                 <li className="nav__side__link"><a href="https://www.linkedin.com/in/glebtc/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
                 <li className="nav__side__link"><a href="https://github.com/GlebTc"><FontAwesomeIcon icon={faGithub} /></a></li>
                 <li className="nav__side__link"><a href="mailto:gleb.tchani@gmail.com" rel="noreferrer"><FontAwesomeIcon icon={faAt} /></a></li>
