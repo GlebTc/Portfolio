@@ -33,7 +33,7 @@ h2 {
 }
 
 .portfolio img {
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 
@@ -61,10 +61,6 @@ span {
     width: 80%;
 }
 
-.portfolio__pagination {
-    margin-top: auto;
-}
-
 @media screen and (max-width: 800px) {
 
     .portfolio {
@@ -77,9 +73,16 @@ span {
         margin: 25px 20%;
     }
 
-    .portfolio img {
-        width: 100%;
-        height: auto;
+    img {
+        border: 1px solid black;
+        height: 350px;
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .portfolio__gallery__item {
+        border: 1px solid red;
     }
 
 }
