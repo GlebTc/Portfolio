@@ -15,13 +15,18 @@
 
 .about{
     width: 75%;
-    height: auto;
-    min-height: 80%;
+    height: 80%;
     padding: 2%;
     margin-top: 15px;
     border: 1px solid black;
     border-radius: 25px;
     background-color: var(--Btn__BGC);
+    overflow-y: auto;
+}
+
+.about__text {
+    height: 99%;
+    overflow: hidden;
     overflow-y: auto;
 }
 
