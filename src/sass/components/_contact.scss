@@ -15,6 +15,7 @@
 .contact-form {
     width: 75%;
     height: auto;
+    min-height: 80%;
     padding: 2%;
     margin-top: 15px;
     border: 1px solid black;
@@ -23,9 +24,15 @@
 }
 
 @media screen and (max-width: 800px) {
+
+    .contact {
+        padding: 0 30px;
+    }
+    
     .contact-form {
         min-height: 70%;
         width: auto;
+        min-width: 70%;
         margin: 25px 20%;
     }
 }

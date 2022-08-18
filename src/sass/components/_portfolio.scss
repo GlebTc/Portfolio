@@ -7,32 +7,79 @@
     justify-content: flex-start;
 }
 
+h2 {
+    text-align: center;
+    font-size: large;
+    font-weight: 1000;
+    color: #fff;
+}
+
 .portfolio h1 {
     padding-top: 20px;
     margin-bottom: 0px;
 }
 
-.portfolio-gallery {
+.portfolio__gallery {
     width: 75%;
     height: auto;
+    min-height: 80%;
     padding: 2%;
     margin-top: 15px;
     border: 1px solid black;
     border-radius: 25px;
     background-color: var(--Btn__BGC);
+    display: flex;
+    flex-direction: column;
 }
 
-.portfolio-gallery img {
-    width: 100%;
+.portfolio img {
+    width: 80%;
     height: auto;
 }
 
+span {
+    font-weight: 700;
+    color: white;
+}
+
+.portfolio__gallery__item {
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.portfolio__gallery__item__description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio__gallery__item__description p {
+    margin-top: 25px;
+    width: 80%;
+}
+
+.portfolio__pagination {
+    margin-top: auto;
+}
+
 @media screen and (max-width: 800px) {
+
+    .portfolio {
+        padding: 0 10%;
+    }
 
     .portfolio-gallery {
         min-height: 70%;
         width: auto;
         margin: 25px 20%;
+    }
+
+    .portfolio img {
+        width: 100%;
+        height: auto;
     }
 
 }
