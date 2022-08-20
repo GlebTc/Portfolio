@@ -7,20 +7,23 @@
     justify-content: flex-start;
 }
 
-.contact h1 {
-    padding-top: 20px;
-    margin-bottom: 0px;
-}
-
-.contact-form {
+.contact__form {
     width: 75%;
-    height: auto;
-    min-height: 80%;
+    height: 80%;
     padding: 2%;
     margin-top: 15px;
     border: 1px solid black;
     border-radius: 25px;
     background-color: var(--Btn__BGC);
+}
+
+.contact h1 {
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+.contact__form__input__field {
+    margin-bottom: 15px;
 }
 
 @media screen and (max-width: 800px) {
@@ -29,7 +32,7 @@
         padding: 0 30px;
     }
     
-    .contact-form {
+    .contact__form {
         min-height: 70%;
         width: auto;
         min-width: 70%;

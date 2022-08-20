@@ -21,26 +21,25 @@ const Contact = ({title, id}:{title: string, id:string}) => {
 
     return (
         <div className="contact">
-            <div className="contact-title">
+            <div className="contact__title">
                 <h1>{title}</h1>
             </div>
-            <div className="contact-form">
+            <div className="contact__form">
                 <Form onSubmit={handleSubmit}>
                     <Form.Group controlId="formBasicName">
                         <Form.Label>Name</Form.Label>
-                        <Form.Control type="text" placeholder="Enter name" value={name} onChange={(e) => setName(e.target.value)}/>
+                        <Form.Control className="contact__form__input__field" type="text" placeholder="Enter name" value={name} onChange={(e) => setName(e.target.value)}/>
                     </Form.Group>
                     <Form.Group controlId="formBasicEmail">
                         <Form.Label>Email address</Form.Label>
-                        <Form.Control type="email" placeholder="Enter email" value={email} onChange={(e) => setEmail(e.target.value)}/>
+                        <Form.Control className="contact__form__input__field" type="email" placeholder="Enter email" value={email} onChange={(e) => setEmail(e.target.value)}/>
                     </Form.Group>
                     <Form.Group controlId="formBasicMessage">
                         <Form.Label>Message</Form.Label>
-                        <Form.Control as="textarea" rows={3} value={message} onChange={(e) => setMessage(e.target.value)}/>
+                        <Form.Control className="contact__form__input__field" as="textarea" placeholder="Message" rows={3} value={message} onChange={(e) => setMessage(e.target.value)}/>
                     </Form.Group>
                     <Form.Group controlId="formBasicSubmit">
-                        <Form.Label>Submit</Form.Label>
-                        <Form.Control type="submit" value="Submit"/>
+                        <Form.Control className="contact__form__input__field" type="submit" value="Submit"/>
                     </Form.Group>
                 </Form>
             </div>

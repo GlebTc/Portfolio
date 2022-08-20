@@ -7,22 +7,9 @@
     justify-content: flex-start;
 }
 
-h2 {
-    text-align: center;
-    font-size: large;
-    font-weight: 1000;
-    color: #fff;
-}
-
-.portfolio h1 {
-    padding-top: 20px;
-    margin-bottom: 0px;
-}
-
 .portfolio__gallery {
     width: 75%;
-    height: auto;
-    min-height: 80%;
+    height: 80%;
     padding: 2%;
     margin-top: 15px;
     border: 1px solid black;
@@ -32,9 +19,22 @@ h2 {
     flex-direction: column;
 }
 
-.portfolio img {
+.portfolio__gallery__item {
     width: 100%;
     height: auto;
+    text-align: center;
+}
+
+.portfolio h1 {
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    text-align: center;
+    font-size: large;
+    font-weight: 1000;
+    color: #fff;;
 }
 
 span {
@@ -42,12 +42,22 @@ span {
     color: white;
 }
 
-.portfolio__gallery__item {
-    width: 100%;
-    height: auto;
-    padding: 2%;
-    margin-top: 15px;
-    text-align: center;
+.portfolio__gallery__item__image {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+img {
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.portfolio__gallery__item__description p {
+    margin-top: 25px;
+    text-align: left;
 }
 
 .portfolio__gallery__item__description{
@@ -56,10 +66,7 @@ span {
     align-items: center;
 }
 
-.portfolio__gallery__item__description p {
-    margin-top: 25px;
-    width: 80%;
-}
+
 
 @media screen and (max-width: 800px) {
 
@@ -67,22 +74,31 @@ span {
         padding: 0 10%;
     }
 
-    .portfolio-gallery {
-        min-height: 70%;
-        width: auto;
-        margin: 25px 20%;
+    .portfolio__gallery__item {
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolio__gallery__item__image {
+        height: 18vh;
     }
 
     img {
-        border: 1px solid black;
-        height: 350px;
-        width: auto;
-        margin: 0;
-        padding: 0;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        padding: 0 3%;
+        border-radius: 10px;
     }
 
-    .portfolio__gallery__item {
-        border: 1px solid red;
+    .portfolio__gallery__item__description {
+        padding: 10%;
+        margin-top: 5vh;
     }
+
+    .portfolio__gallery__item__description p {
+        font-size: small;
+    }
+    
+
 
 }

@@ -8,7 +8,7 @@ import Contact from './components/pages__components/Contact'
 
 
 
-function App(): JSX.Element {
+const App = () => {
 
   window.onload = () => {
     document.documentElement.style.setProperty('--NavBar__Display', 'rgba(92, 41, 231, 0.6)')
