@@ -31,7 +31,10 @@ p {
     https://css-tricks.com/custom-scrollbars-in-webkit/
 */
 
-::-webkit-scrollbar {
+.about ::-webkit-scrollbar,
+.portfolio__gallery ::-webkit-scrollbar,
+.contact__form ::-webkit-scrollbar,
+.introduction ::-webkit-scrollbar {
     width: 10px;
     background-color: rgba(92, 59, 184, 0.4);
     border-radius: 50px;
@@ -40,7 +43,10 @@ p {
     margin: 5% 0;
 }
 
-::-webkit-scrollbar-thumb {
+.about ::-webkit-scrollbar-thumb,
+.portfolio__gallery ::-webkit-scrollbar-thumb,
+.contact__form ::-webkit-scrollbar-thumb,
+.introduction ::-webkit-scrollbar-thumb {
     background-color: var(--Text__Primary);
     border-radius: 10px;
 }

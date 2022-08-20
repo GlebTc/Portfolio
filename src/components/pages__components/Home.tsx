@@ -6,7 +6,7 @@ const Home = ({title, id}:{title: string, id:string}) => {
                 <div className="introduction__text">
                                     Welcome to my website, <br /> <br />
 
-                My name is <span>Gleb Tchani</span> and I am a self-taught software developer in the early stages of my career.  I have approximately 2 years of experience working with various frontend technologies.  As you navigate to my portfolio, you can see that I have experience with the following stack:<br /><br />
+                My name is <span>Gleb Tchani</span> and I am a self-taught software developer in the early stages of my career.  I have approximately 2 years of experience working with various frontend technologies.  One of the things that attracts me to software development is an unlimited learning opportunity.  There are always ways to improve your current knowledge or learn something completely new.  I am looking for an opportunity to work with an experienced team and mentor for mutual future growth and success.  As you navigate through my portfolio, you will find that I have experience working with the following stack:<br /><br />
                 <ul>
                     <li><span>HTML 5</span></li>
                     <li><span>CSS 3 (SCSS)</span></li>
@@ -14,9 +14,8 @@ const Home = ({title, id}:{title: string, id:string}) => {
                     <li><span>React JS</span></li>
                 </ul>
                 <br />
-                I have since taken on small individual projects to build websites for local businesses, freelance contracting opportunities to improve existing websites as well as projects of my own to improve my knowledge and expertise.<br /><br />
-                Currently I am working on implementing <span>TypeScript</span> into my code and exploring <span>Node JS</span> and <span>Express</span> to have better understanding of backend.
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate et nihil molestiae illum dicta sit, odio accusantium saepe? Illum corporis quod corrupti expedita rerum repudiandae eveniet minus ipsam hic recusandae placeat dolorem maiores delectus optio odio at fugit minima, quibusdam aut voluptates ducimus voluptatum, cum voluptatem odit! Architecto, tempora nisi!
+                Currently I am working on small individual projects to build websites for local businesses, freelance contracting opportunities to improve existing applications as well as projects of my own to extend my knowledge and expertise.<br /><br />
+                I am also working on implementing <span>TypeScript</span> into my code and exploring <span>Node JS</span> and <span>Express</span> to have better understanding of backend.  I adapt very well to new technologies and am prepared to direct my learning  to areas best suited for my employer.
                 </div>
             </p>
         </section>

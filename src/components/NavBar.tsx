@@ -82,7 +82,7 @@ const NavBar: React.FC = () => {
                     duration={200}
                     offset={0}
                 >                
-                <img src="portrait.jpg" alt="Gleb Tchani" id="portrait"/>
+                <img src="portrait.png" alt="Gleb Tchani" id="portrait"/>
                 </Link>
 
 
