@@ -39,7 +39,7 @@ const Contact = ({title, id}:{title: string, id:string}) => {
                         <Form.Control className="contact__form__input__field" as="textarea" placeholder="Message" rows={3} value={message} onChange={(e) => setMessage(e.target.value)}/>
                     </Form.Group>
                     <Form.Group controlId="formBasicSubmit">
-                        <Form.Control className="contact__form__input__field" type="submit" value="Submit"/>
+                        <Form.Control className="contact__form__submit__btn" type="submit" value="Submit"/>
                     </Form.Group>
                 </Form>
             </div>
