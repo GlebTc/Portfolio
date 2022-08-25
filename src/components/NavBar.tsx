@@ -58,7 +58,7 @@ const NavBar: React.FC = () => {
         <DropdownButton id="dropdown-item-button" title="Themes" >
             <Dropdown.Item onClick={handleChange} id="theme_1" as="button">Theme 1</Dropdown.Item>
             <Dropdown.Item onClick={handleChange} id="theme_2" as="button">Theme 2</Dropdown.Item>
-            <Dropdown.Item onClick={handleChange} id="theme_3"as="button">Theme 3</Dropdown.Item>
+            <Dropdown.Item onClick={handleChange} id="theme_3" as="button">Theme 3</Dropdown.Item>
         </DropdownButton>
 
             <ul className="nav__social__links">

@@ -59,6 +59,32 @@ p {
     border-radius: 10px;
 }
 
+#dropdown-item-button {
+    background-color: var(--Btn__BGC);
+    color: var(--Text__Primary);
+    border-radius: 10px;
+    font-size: 1.2 rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#theme_1 {
+    background-color: rgba(92, 41, 231, 1);
+}
+
+#theme_2 {
+    background-color: rgba(144, 175, 197, 1);
+}
+
+#theme_3 {
+    background-color: rgba(170, 161, 200, 1);
+}
+
+.dropdown-menu.show {
+    padding: 0;
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 800px) {
     p {
         font-size: 1.2rem;
