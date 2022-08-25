@@ -45,7 +45,7 @@
     margin: 0 4px;
     border: none;
     border-radius: 15px;
-    background-color: rgba(0, 255, 255, 0.6);
+    background-color: var(--Highlight);
     font-weight: 900;
 }
 
@@ -55,7 +55,7 @@
 
 .nav__link:hover
 {
-    background-color: rgba(0, 255, 255, 0.6);
+    background-color: var(--Highlight);
     transition: 500ms;   
 }
 
@@ -72,7 +72,7 @@
 }
 
 .nav__social__links .nav__side__link a:hover {
-    color: rgba(0, 255, 255, 0.6);
+    color: var(--Highlight);
     transition: 500ms; 
 }
 
@@ -82,7 +82,7 @@
 .fa-at,
 .fa-phone
 {
-    color: var(--Text__Primary)
+    color: var(--Icons)
 }
 
 .fa-file-pdf:hover,
@@ -91,7 +91,7 @@
 .fa-at:hover,
 .fa-phone:hover
 {
-    color: rgba(0, 255, 255, 0.6);
+    color: var(--Highlight);
 }
 
 /*--------------------------------MOBILE--------------------------------*/
@@ -152,7 +152,7 @@
     .nav__side__link,
     .nav__side__link:visited
     {
-        color: var(--Text__Primary);
+        color: var(--Icons);
     }
 
     .nav__side__link:hover,
@@ -160,7 +160,7 @@
     {
         cursor: pointer;
         border-radius: 50px;
-        color: rgba(0, 255, 255, 0.6);
+        color: var(--Highlight);
         transition: 500ms; 
     }
 
@@ -168,7 +168,7 @@
     {
         cursor: pointer;
         border-radius: 15px;
-        color: rgba(0, 255, 255, 0.6);
+        color: var(--Highlight);
         font-weight: 900;
     }
 
@@ -182,7 +182,7 @@
     .fa-at,
     .fa-phone
     {
-        color: var(--Text__Primary)
+        color: var(--Icons)
     }
 
     .fa-file-pdf:hover,
@@ -191,6 +191,6 @@
     .fa-at:hover,
     .fa-phone:hover
     {
-        color: rgba(0, 255, 255, 0.6);
+        color: var(--Highlight);
     }
 }

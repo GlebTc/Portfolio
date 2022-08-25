@@ -1,6 +1,6 @@
 .about__container {
     height: calc(100vh/* - var(--NavBar__Height)*/);
-    background-color: var(--BGC__Light__Secondary);
+    background-color: var(--BGC__Secondary);
     /*padding-top: var(--NavBar__Height);*/
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
     margin-top: 15px;
     border: 1px solid black;
     border-radius: 25px;
-    background-color: var(--Btn__BGC);
+    background-color: var(--BGC__Section);
     overflow-y: auto;
 }
 
