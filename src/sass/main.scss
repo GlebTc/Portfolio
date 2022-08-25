@@ -7,13 +7,18 @@
 
 
 :root {
-
-    /* Light Theme */
-    --NavBar__Height: 55px;
-    --BGC__Light__Primary: rgba(92, 41, 231, 0.2);
-    --BGC__Light__Secondary: rgba(92, 41, 231, 0.4);
+    /* Colors / Themes */
+    --BGC__Primary: rgba(92, 41, 231, 0.2);
+    --BGC__Secondary: rgba(92, 41, 231, 0.4);
+    --BGC__Section:rgb(105, 115, 204);
+    --Highlight: rgba(0, 255, 255, 0.6);
+    --Icons: rgb(18, 67, 122);
     --Text__Primary: rgb(18, 67, 122);
     --Btn__BGC:rgb(105, 115, 204);
+    
+    /* Parameters */
+    --NavBar__Height: 55px;
+
 }
 
 *{
@@ -27,6 +32,7 @@
 p {
     font-size: 1.5rem;
     line-height: 1.5rem;
+    color: var(--Text__Primary);
 }
 
 /*  https://stackoverflow.com/questions/38021252/how-to-make-scrollbar-length-less-than-parent-block 
