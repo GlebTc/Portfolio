@@ -4,10 +4,10 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse, faUser, faSuitcase, faAddressCard, faAt, faPhone, faFilePdf } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons' 
+import { faHouse, faUser, faSuitcase, faAddressCard } from '@fortawesome/free-solid-svg-icons'
 import { Link, /*animateScroll as scroll*/ } from "react-scroll"; //https://www.digitalocean.com/community/tutorials/how-to-implement-smooth-scrolling-in-react
 
+import SocialLinks from "./reusable/SocialLinks";
 
 
 const NavBar: React.FC = () => {
@@ -33,18 +33,18 @@ const NavBar: React.FC = () => {
         document.documentElement.style.setProperty('--BGC__Secondary', 'rgba(144, 175, 197, 0.4)')
         document.documentElement.style.setProperty('--BGC__Section', 'rgba(107, 125, 125, 1)')
         document.documentElement.style.setProperty('--Highlight', 'rgba(166, 216, 212, 1)')
-        document.documentElement.style.setProperty('--Icons', 'rgba(42, 49, 50, 1)')
+        document.documentElement.style.setProperty('--Icons', 'rgba(41, 133, 26, 1)')
         document.documentElement.style.setProperty('--Text__Primary', 'rgba(215, 218, 229, 1)')
-        document.documentElement.style.setProperty('--Btn__BGC', 'rgba(42, 49, 50, 1)') 
+        document.documentElement.style.setProperty('--Btn__BGC', 'rgba(41, 133, 26, 1)') 
         document.documentElement.style.setProperty('--NavBar__Display', 'rgba(107, 125, 125, 0.6)')
     } else if (theme === "theme_3"){
         document.documentElement.style.setProperty('--BGC__Primary', 'rgba(170, 161, 200, 0.2)')
         document.documentElement.style.setProperty('--BGC__Secondary', 'rgba(170, 161, 200, 0.4')
         document.documentElement.style.setProperty('--BGC__Section', 'rgba(150, 122, 161, 1)')
         document.documentElement.style.setProperty('--Highlight', 'rgba(245, 230, 232, 1)')
-        document.documentElement.style.setProperty('--Icons', 'rgba(25, 42, 81, 1)')
+        document.documentElement.style.setProperty('--Icons', 'rgba(129, 30, 152, 1)')
         document.documentElement.style.setProperty('--Text__Primary', 'rgba(215, 218, 229, 1)')
-        document.documentElement.style.setProperty('--Btn__BGC', 'rgba(25, 42, 81, 1)') 
+        document.documentElement.style.setProperty('--Btn__BGC', 'rgba(129, 30, 152, 1)') 
         document.documentElement.style.setProperty('--NavBar__Display', 'rgba(150, 122, 161, 0.6)')        
     }
 
@@ -62,11 +62,7 @@ const NavBar: React.FC = () => {
         </DropdownButton>
 
             <ul className="nav__social__links">
-                <li className="nav__side__link"><a href="https://file.io/cKkb2hMNz1n8" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFilePdf} /></a></li>  
-                <li className="nav__side__link"><a href="https://www.linkedin.com/in/glebtc/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a></li>
-                <li className="nav__side__link"><a href="https://github.com/GlebTc" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a></li>
-                <li className="nav__side__link"><a href="mailto:gleb.tchani@gmail.com" rel="noreferrer"><FontAwesomeIcon icon={faAt} /></a></li>
-                <li className="nav__side__link"><a href="tel:+19057304227" rel="noreferrer"><FontAwesomeIcon icon={faPhone} /></a></li>             
+                <SocialLinks />          
             </ul>
             <ul className="nav__links__container">
                 <Link
@@ -185,11 +181,7 @@ const NavBar: React.FC = () => {
 {/* -------------------------------START Left Side Links------------------------------- */}
         <nav className="nav__left__side__container links__side__container__display">
             <ul className="nav__links__left__side__container">
-                <li className="nav__side__link"><a href="https://www.dropbox.com/s/i1f4q5ajov01590/Gleb%20Tchani%20-%20Resume.pdf?dl=0"><FontAwesomeIcon icon={faFilePdf} /></a></li>  
-                <li className="nav__side__link"><a href="https://www.linkedin.com/in/glebtc/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
-                <li className="nav__side__link"><a href="https://github.com/GlebTc"><FontAwesomeIcon icon={faGithub} /></a></li>
-                <li className="nav__side__link"><a href="mailto:gleb.tchani@gmail.com" rel="noreferrer"><FontAwesomeIcon icon={faAt} /></a></li>
-                <li className="nav__side__link"><a href="tel:+19057304227" rel="noreferrer"><FontAwesomeIcon icon={faPhone} /></a></li>             
+                <SocialLinks />            
             </ul>
         </nav>
 {/* -------------------------------End Left Side Links------------------------------- */}
