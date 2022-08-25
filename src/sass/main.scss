@@ -62,14 +62,14 @@ p {
 #dropdown-item-button {
     background-color: var(--Btn__BGC);
     color: var(--Text__Primary);
-    border-radius: 10px;
-    font-size: 1.2 rem;
+
     font-weight: 700;
     cursor: pointer;
 }
 
 #theme_1 {
     background-color: rgba(92, 41, 231, 1);
+    color: var(--Text__Primary);
 }
 
 #theme_2 {
