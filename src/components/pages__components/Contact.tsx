@@ -24,7 +24,7 @@ const Contact = ({title, id}:{title: string, id:string}) => {
             <div className="contact__title">
                 <h1>{title}</h1>
             </div>
-            <div className="contact__form">
+            <div className="contact__form content__container">
                 <Form onSubmit={handleSubmit}>
                     <Form.Group controlId="formBasicName">
                         <Form.Label>Name</Form.Label>

@@ -8,18 +8,11 @@
     justify-content: flex-start;
 }
 
-.home__container h1 {
-    padding-top: 20px;
-    margin-bottom: 0px;
-}
-
 .introduction{
     width: 75%;
     height: 80%;
     padding: 2%;
     margin-top: 15px;
-    border: 1px solid black;
-    border-radius: 25px;
     background-color: var(--BGC__Section);
 }
 
@@ -27,6 +20,7 @@
     height: 100%;
     overflow: hidden;
     overflow-y: auto;
+    padding: 2% 10%;
 }
 
 .introduction ul {

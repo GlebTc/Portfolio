@@ -6,7 +6,7 @@ const About = ({title, id}:{title:string, id:string}) => {
     return (
         <section id={id} className="about__container">
             <h1>{title} Me</h1>
-            <p className="about" id={title}>
+            <p className="about content__container" id={title}>
                 <div className="about__text">
                     Educational Background:
                     <br /> <br />
