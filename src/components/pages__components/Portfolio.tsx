@@ -1,7 +1,6 @@
 //create a carousel for the portfolio with three items
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import { CarouselItem } from 'react-bootstrap';
 
 type portfolioProps = {
   title: string,
@@ -10,9 +9,9 @@ type portfolioProps = {
 
 const Portfolio = ({title, id}: portfolioProps) => {
   return (
-    <div className="portfolio">
+    <div className="portfolio ">
       <h1>{title}</h1>
-      <Carousel className="portfolio__gallery">
+      <Carousel className="portfolio__gallery content__container">
         <Carousel.Item className='carousel__item'>
           <div className="portfolio__gallery__item">
             <h2>Edo Reno</h2>
@@ -47,7 +46,7 @@ const Portfolio = ({title, id}: portfolioProps) => {
 export default Portfolio;
 
 
-{/* <div className="portfolio">
+/* <div className="portfolio">
 <h1>{title}</h1>
 <Carousel className="portfolio__gallery" id={title}>
   {PortfolioData.map((item) => {
@@ -58,4 +57,4 @@ export default Portfolio;
     )}
   )}
 </Carousel>
-</div> */}
+</div> */

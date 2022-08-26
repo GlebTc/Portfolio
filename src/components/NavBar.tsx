@@ -16,7 +16,6 @@ const NavBar: React.FC = () => {
     const handleChange = (event: any) => {
         event.preventDefault();
         setTheme(event.target.id);
-        console.log(theme)
     }
 
     if (theme === "theme_1"){
@@ -26,6 +25,7 @@ const NavBar: React.FC = () => {
         document.documentElement.style.setProperty('--Highlight', 'rgba(0, 255, 255, 0.6)')
         document.documentElement.style.setProperty('--Icons', 'rgb(18, 67, 122)')
         document.documentElement.style.setProperty('--Text__Primary', 'rgb(18, 67, 122)')
+        document.documentElement.style.setProperty('--Active', 'rgba(13, 110, 253, 1)')
         document.documentElement.style.setProperty('--Btn__BGC', 'rgb(105, 115, 204)')   
         document.documentElement.style.setProperty('--NavBar__Display', 'rgba(92, 41, 231, 0.6)')
     } else if (theme === "theme_2"){
@@ -35,6 +35,7 @@ const NavBar: React.FC = () => {
         document.documentElement.style.setProperty('--Highlight', 'rgba(166, 216, 212, 1)')
         document.documentElement.style.setProperty('--Icons', 'rgba(41, 133, 26, 1)')
         document.documentElement.style.setProperty('--Text__Primary', 'rgba(215, 218, 229, 1)')
+        document.documentElement.style.setProperty('--Active', 'rgba(41, 133, 26, 1)')
         document.documentElement.style.setProperty('--Btn__BGC', 'rgba(41, 133, 26, 1)') 
         document.documentElement.style.setProperty('--NavBar__Display', 'rgba(107, 125, 125, 0.6)')
     } else if (theme === "theme_3"){
@@ -44,12 +45,10 @@ const NavBar: React.FC = () => {
         document.documentElement.style.setProperty('--Highlight', 'rgba(245, 230, 232, 1)')
         document.documentElement.style.setProperty('--Icons', 'rgba(129, 30, 152, 1)')
         document.documentElement.style.setProperty('--Text__Primary', 'rgba(215, 218, 229, 1)')
+        document.documentElement.style.setProperty('--Active', 'rgba(129, 30, 152, 1)')
         document.documentElement.style.setProperty('--Btn__BGC', 'rgba(129, 30, 152, 1)') 
         document.documentElement.style.setProperty('--NavBar__Display', 'rgba(150, 122, 161, 0.6)')        
     }
-
-
-
 
     return(
         <>

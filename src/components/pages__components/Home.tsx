@@ -1,9 +1,9 @@
 const Home = ({title, id}:{title: string, id:string}) => {
     return (
-        <section id={id} className="home__container">
+        <section id={id} className="home__container ">
             <h1>{title}</h1>
-            <p className="introduction" id={title}>
-                <div className="introduction__text">
+            <p className="introduction content__container" id={title}>
+                <div className="introduction__text ">
                                     Welcome to my website, <br /> <br />
 
                 My name is <span>Gleb Tchani</span> and I am a self-taught software developer in the early stages of my career.  I have approximately 2 years of experience working with various frontend technologies.  One of the things that attracts me to software development is an unlimited learning opportunity.  There are always ways to improve your current knowledge or learn something completely new.  I am looking for an opportunity to work with an experienced team and mentor for mutual future growth and success.  As you navigate through my portfolio, you will find that I have experience working with the following stack:<br /><br />
