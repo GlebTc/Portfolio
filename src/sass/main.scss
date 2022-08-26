@@ -63,16 +63,25 @@ p {
     background-color: var(--Btn__BGC);
     color: var(--Text__Primary);
     border: none;
-    font-weight: 700;
     cursor: pointer;
 }
 
 h1 {
     padding-top: 20px;
     margin-bottom: 0px;
-    color: var(--BGC__Section);
+    color: var(--Active__Text);
 }
 
+span, .label {
+    font-weight: 700;
+    color: var(--Active__Text);
+}
+
+
+.label {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
 
 
 #theme_1 {

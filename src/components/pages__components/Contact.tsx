@@ -27,15 +27,15 @@ const Contact = ({title, id}:{title: string, id:string}) => {
             <div className="contact__form content__container">
                 <Form onSubmit={handleSubmit}>
                     <Form.Group controlId="formBasicName">
-                        <Form.Label>Name</Form.Label>
+                        <Form.Label className="label">Name</Form.Label>
                         <Form.Control className="contact__form__input__field" type="text" placeholder="Enter name" value={name} onChange={(e) => setName(e.target.value)}/>
                     </Form.Group>
                     <Form.Group controlId="formBasicEmail">
-                        <Form.Label>Email address</Form.Label>
+                        <Form.Label className="label">Email address</Form.Label>
                         <Form.Control className="contact__form__input__field" type="email" placeholder="Enter email" value={email} onChange={(e) => setEmail(e.target.value)}/>
                     </Form.Group>
                     <Form.Group controlId="formBasicMessage">
-                        <Form.Label>Message</Form.Label>
+                        <Form.Label className="label">Message</Form.Label>
                         <Form.Control className="contact__form__input__field" as="textarea" placeholder="Message" rows={3} value={message} onChange={(e) => setMessage(e.target.value)}/>
                     </Form.Group>
                     <Form.Group controlId="formBasicSubmit">

@@ -48,7 +48,7 @@
     border-radius: 8px;
     background-color: var(--Highlight);
     font-weight: 900;
-    color: var(--Active);
+    color: var(--Active__Text);
 }
 
 .active {
@@ -58,7 +58,8 @@
 .nav__link:hover
 {
     background-color: var(--Highlight);
-    transition: 500ms;   
+    transition: 500ms;
+    color: var(--Active__Text);   
 }
 
 
