@@ -8,13 +8,15 @@
 
 :root {
     /* Colors / Themes */
-    --BGC__Primary: rgba(92, 41, 231, 0.2);
-    --BGC__Secondary: rgba(92, 41, 231, 0.4);
-    --BGC__Section:rgb(105, 115, 204);
-    --Highlight: rgba(0, 255, 255, 0.6);
-    --Icons: rgb(18, 67, 122);
-    --Text__Primary: white;
-    --Btn__BGC:rgb(105, 115, 204);
+    --BGC__Primary: rgba(144, 175, 197, 0.2);
+    --BGC__Secondary: rgba(144, 175, 197, 0.4);
+    --BGC__Section: rgba(107, 125, 125, 1);
+    --Highlight: rgba(166, 216, 212, 1);
+    --Icons: rgba(12, 76, 12, 0.7);
+    --Text__Primary: rgba(215, 218, 229, 1);
+    --Active__Text: rgba(12, 76, 12, 1);
+    --Btn__BGC: rgba(12, 76, 12, 0.7);
+    --NavBar__Display: rgba(107, 125, 125, 0.6);
     
     /* Parameters */
     --NavBar__Height: 55px;
@@ -83,24 +85,6 @@ span, .label {
     line-height: 1.5rem;
 }
 
-
-#theme_1 {
-    background-color: rgba(92, 41, 231, 1);
-    color: var(--Text__Primary);
-}
-
-#theme_2 {
-    background-color: rgba(144, 175, 197, 1);
-}
-
-#theme_3 {
-    background-color: rgba(170, 161, 200, 1);
-}
-
-.dropdown-menu.show {
-    padding: 0;
-    border-radius: 10px;
-}
 
 .content__container {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;

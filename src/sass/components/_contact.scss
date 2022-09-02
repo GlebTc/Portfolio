@@ -1,5 +1,5 @@
 .contact {
-    height: calc(100vh/* - var(--NavBar__Height)*/);
+    height: calc(100vh - var(--NavBar__Height));
     background-color: var(--BGC__Secondary);
     display: flex;
     flex-direction: column;
@@ -30,7 +30,8 @@
 
 @media screen and (max-width: 800px) {
 
-    .contact {
+    .contact__container {
+        height: 100vh;
         padding: 0 30px;
     }
     
