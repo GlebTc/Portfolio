@@ -1,6 +1,5 @@
-import React, {useState} from "react";
-import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
+import React from "react";
+
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -11,55 +10,11 @@ import SocialLinks from "./reusable/SocialLinks";
 
 
 const NavBar: React.FC = () => {
-    const [theme, setTheme] = useState<string>("");
-
-    const handleChange = (event: any) => {
-        event.preventDefault();
-        setTheme(event.target.id);
-    }
-
-    if (theme === "theme_1"){
-        document.documentElement.style.setProperty('--BGC__Primary', 'rgba(92, 41, 231, 0.2)')
-        document.documentElement.style.setProperty('--BGC__Secondary', 'rgba(92, 41, 231, 0.4)')
-        document.documentElement.style.setProperty('--BGC__Section', 'rgb(105, 115, 204)')
-        document.documentElement.style.setProperty('--Highlight', 'rgba(0, 255, 255, 0.6)')
-        document.documentElement.style.setProperty('--Icons', 'rgb(18, 67, 122)')
-        document.documentElement.style.setProperty('--Text__Primary', 'rgb(18, 67, 122)')
-        document.documentElement.style.setProperty('--Active__Text', 'rgba(13, 110, 253, 1)')
-        document.documentElement.style.setProperty('--Btn__BGC', 'rgb(105, 115, 204)')   
-        document.documentElement.style.setProperty('--NavBar__Display', 'rgba(92, 41, 231, 0.6)')
-    } else if (theme === "theme_2"){
-        document.documentElement.style.setProperty('--BGC__Primary', 'rgba(144, 175, 197, 0.2)')
-        document.documentElement.style.setProperty('--BGC__Secondary', 'rgba(144, 175, 197, 0.4)')
-        document.documentElement.style.setProperty('--BGC__Section', 'rgba(107, 125, 125, 1)')
-        document.documentElement.style.setProperty('--Highlight', 'rgba(166, 216, 212, 1)')
-        document.documentElement.style.setProperty('--Icons', 'rgba(12, 76, 12, 0.7)')
-        document.documentElement.style.setProperty('--Text__Primary', 'rgba(215, 218, 229, 1)')
-        document.documentElement.style.setProperty('--Active__Text', 'rgba(12, 76, 12, 1)')
-        document.documentElement.style.setProperty('--Btn__BGC', 'rgba(12, 76, 12, 0.7)') 
-        document.documentElement.style.setProperty('--NavBar__Display', 'rgba(107, 125, 125, 0.6)')
-    } else if (theme === "theme_3"){
-        document.documentElement.style.setProperty('--BGC__Primary', 'rgba(170, 161, 200, 0.2)')
-        document.documentElement.style.setProperty('--BGC__Secondary', 'rgba(170, 161, 200, 0.4')
-        document.documentElement.style.setProperty('--BGC__Section', 'rgba(150, 122, 161, 1)')
-        document.documentElement.style.setProperty('--Highlight', 'rgba(245, 230, 232, 1)')
-        document.documentElement.style.setProperty('--Icons', 'rgba(129, 30, 152, 1)')
-        document.documentElement.style.setProperty('--Text__Primary', 'rgba(215, 218, 229, 1)')
-        document.documentElement.style.setProperty('--Active__Text', 'rgba(129, 30, 152, 1)')
-        document.documentElement.style.setProperty('--Btn__BGC', 'rgba(129, 30, 152, 1)') 
-        document.documentElement.style.setProperty('--NavBar__Display', 'rgba(150, 122, 161, 0.6)')        
-    }
 
     return(
         <>
 {/* -------------------------------Start Main NavBar------------------------------- */}
         <nav className="nav__container">
-        <DropdownButton id="dropdown-item-button" title="Themes" >
-            <Dropdown.Item onClick={handleChange} id="theme_1" as="button">Theme 1</Dropdown.Item>
-            <Dropdown.Item onClick={handleChange} id="theme_2" as="button">Theme 2</Dropdown.Item>
-            <Dropdown.Item onClick={handleChange} id="theme_3" as="button">Theme 3</Dropdown.Item>
-        </DropdownButton>
-
             <ul className="nav__social__links">
                 <SocialLinks />          
             </ul>
