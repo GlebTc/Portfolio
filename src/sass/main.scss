@@ -14,13 +14,16 @@
     --Highlight: rgba(166, 216, 212, 1);
     --Icons: rgba(12, 76, 12, 0.7);
     --Text__Primary: rgba(215, 218, 229, 1);
-    --Active__Text: rgba(12, 76, 12, 1);
+    --Active__Text: rgba(12, 76, 12, 0.8);
     --Btn__BGC: rgba(12, 76, 12, 0.7);
-    --NavBar__Display: rgba(107, 125, 125, 0.6);
+    --NavBar__Display: rgba(107, 125, 125, 0.7);
     
     /* Parameters */
     --NavBar__Height: 55px;
+}
 
+.nav__container {
+    z-index: 1;
 }
 
 *{
@@ -29,6 +32,16 @@
     padding: 0;
     box-sizing: border-box;
     
+}
+
+.content__container {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 3px;
+    background-color: var(--BGC__Section);
+    width: 75%;
+    height: 80%;
+    padding: 2px;
+    margin-top: 5px;
 }
 
 p {
@@ -41,22 +54,24 @@ p {
     https://css-tricks.com/custom-scrollbars-in-webkit/
 */
 
-.about ::-webkit-scrollbar,
+.about__text ::-webkit-scrollbar,
 .portfolio__gallery ::-webkit-scrollbar,
 .contact__form ::-webkit-scrollbar,
-.introduction ::-webkit-scrollbar {
+.introduction__text ::-webkit-scrollbar,
+.portfolio__gallery__item__description ::-webkit-scrollbar {
     width: 10px;
-    background-color: rgba(92, 59, 184, 0.4);
+    background-color: var(--BGC__Secondary);
     border-radius: 50px;
     height: 10px;
     padding: 5% 0;
     margin: 5% 0;
 }
 
-.about ::-webkit-scrollbar-thumb,
+.about__text ::-webkit-scrollbar-thumb,
 .portfolio__gallery ::-webkit-scrollbar-thumb,
 .contact__form ::-webkit-scrollbar-thumb,
-.introduction ::-webkit-scrollbar-thumb {
+.introduction__text ::-webkit-scrollbar-thumb,
+.portfolio__gallery__item__description ::-webkit-scrollbar-thumb {
     background-color: var(--Text__Primary);
     border-radius: 10px;
 }
@@ -86,13 +101,15 @@ span, .label {
 }
 
 
-.content__container {
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    border-radius: 10px;
-}
+
 
 
 @media screen and (max-width: 800px) {
+    
+    .content__container {
+        width: 70%;
+        height: 85%;
+    }
     p {
         font-size: 1.2rem;
         line-height: 1.2rem;

@@ -87,8 +87,7 @@ const NavBar: React.FC = () => {
                     activeClass="active"
                     to="home"
                     spy={true}
-                    smooth={true}
-                    duration={200}
+                    smooth={true}                    duration={200}
                     offset={0}
                 >
                     <li className="nav__side__link"><FontAwesomeIcon icon={faHouse} /></li>
