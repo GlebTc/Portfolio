@@ -20,25 +20,23 @@ const Contact = ({title, id}:{title: string, id:string}) => {
     }
 
     return (
-        <div className="contact">
-            <div className="contact__title">
-                <h1>{title}</h1>
-            </div>
-            <div className="contact__form content__container">
+        <div className="contact"  id={id}>
+            <h1>{title}</h1>
+            <div className="content__container">
                 <Form onSubmit={handleSubmit}>
-                    <Form.Group controlId="formBasicName">
+                    <Form.Group controlId="formBasicName" className="form__item">
                         <Form.Label className="label">Name</Form.Label>
                         <Form.Control className="contact__form__input__field" type="text" placeholder="Enter name" value={name} onChange={(e) => setName(e.target.value)}/>
                     </Form.Group>
-                    <Form.Group controlId="formBasicEmail">
+                    <Form.Group controlId="formBasicEmail" className="form__item">
                         <Form.Label className="label">Email address</Form.Label>
                         <Form.Control className="contact__form__input__field" type="email" placeholder="Enter email" value={email} onChange={(e) => setEmail(e.target.value)}/>
                     </Form.Group>
-                    <Form.Group controlId="formBasicMessage">
+                    <Form.Group controlId="formBasicMessage" className="form__item">
                         <Form.Label className="label">Message</Form.Label>
                         <Form.Control className="contact__form__input__field" as="textarea" placeholder="Message" rows={3} value={message} onChange={(e) => setMessage(e.target.value)}/>
                     </Form.Group>
-                    <Form.Group controlId="formBasicSubmit">
+                    <Form.Group controlId="formBasicSubmit" className="form__item">
                         <Form.Control className="contact__form__submit__btn" type="submit" value="Submit"/>
                     </Form.Group>
                 </Form>

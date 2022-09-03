@@ -89,19 +89,10 @@ h1 {
     color: var(--Active__Text);
 }
 
-span, .label {
+span {
     font-weight: 700;
     color: var(--Active__Text);
 }
-
-
-.label {
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-}
-
-
-
 
 
 @media screen and (max-width: 800px) {
