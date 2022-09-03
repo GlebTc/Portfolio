@@ -7,17 +7,12 @@
     justify-content: flex-start;
 }
 
-.contact__form {
-    width: 75%;
-    height: 80%;
-    padding: 2% 5%;
-    margin-top: 15px;
-    background-color: var(--BGC__Section);
-    color: var(--Text__Primary);
+.form__item {
+    padding: 20px 10% 0;
 }
 
 .contact__form__input__field {
-    margin: 15px 0 ;
+    margin: 5px 0 ;
 }
 
 .contact__form__submit__btn {
@@ -25,14 +20,16 @@
 }
 
 .form-label {
-    margin: 2%;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--Highlight);
 }
 
 @media screen and (max-width: 800px) {
 
     .contact {
         height: 100vh;
-        padding: 0 30px;
     }
     
     .contact__form {
