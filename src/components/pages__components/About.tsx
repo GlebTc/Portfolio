@@ -16,7 +16,7 @@ const About = ({title, id}:{title:string, id:string}) => {
                             <li><span>Business Marketing</span></li>
                         </ul>
                         <br />
-                        I have graduated with a Business Marketing diploma from Mohawk College.  I further continued my education at Brock University, where I obtained a Business Administration degree with honours, with a concentration in Finance.  I have developed strong communication and problem solving skills.  Aside from the curriculum, I have learned to properly manage my time and prioritize my tasks.
+                        First post-secondary education was Business Marketing diploma.  I further continued my education at Brock University, where I obtained a Business Administration degree with honours, with a concentration in Finance.  I have developed strong communication and problem solving skills.  Aside from the curriculum, I have learned to properly manage my time and prioritize my tasks.
                         <br /><br />
                         Professional Background:
                         <br /> <br />
@@ -24,7 +24,6 @@ const About = ({title, id}:{title:string, id:string}) => {
                             <li><span>Real Estate</span></li>
                             <li><span>Mortgage Financing</span></li>
                             <li><span>Life Insurance</span></li>
-                            <li><span>Healthcare</span></li>
                         </ul>
                         <br />
                         I have experience working individually, as part of a team, and as a member of a large organization. Working individually, I am very <span>organized</span>, <span>detail oriented</span> and committed to <span>high level of efficiency</span>. As part of a team, I am very <span>supportive</span>, embrace constructive criticism and always ready to assist.

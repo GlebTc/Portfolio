@@ -24,7 +24,7 @@ const Portfolio = ({title, id}: portfolioProps) => {
               <div className="portfolio__gallery__item__description">
                 <p className="descritption__text">
                   <div className="description">
-                  This is one of the first projects in <span>React JS</span>.  The focus of this project was to create a <span>Mobile-First UI</span> using <span>SCSS</span> and create a functional contact form.  There is no backend and an <span>EmailJS</span> package was used to add functionality to the contact form. 
+                  The focus of this project was to create a <span>Mobile-First UI</span> using <span>SCSS</span> and create a functional contact form.  There is no backend and an <span>EmailJS</span> package was used to add functionality to the contact form. 
                   </div>
                 </p>
               </div>
@@ -41,7 +41,7 @@ const Portfolio = ({title, id}: portfolioProps) => {
               <div className="portfolio__gallery__item__description">
               <p className="descritption__text">
                   <div className="description">
-                This is my second project where I have added extra features.  I have implemented <span>Custom Reusable Components</span>, implemented the use of <span>axios</span> to fetch data from PetFinder Api.  For the website design I used <span>Material UI</span>.
+                In this project I practiced using <span>Custom Reusable Components</span>, implemented the use of <span>axios</span> to fetch data from PetFinder Api.  For the website design I used <span>Material UI</span>.
                 </div>
                 </p>
               </div>
