@@ -24,7 +24,7 @@ const Portfolio = ({title, id}: portfolioProps) => {
               <div className="portfolio__gallery__item__description">
                 <p className="descritption__text">
                   <div className="description">
-                  The focus of this project was to create a <span>Mobile-First UI</span> using <span>React JS</span>, <span>SASS</span> and <span>Typescript</span>.  Secondary portion of this project was to create a functional contact form.  There is no backend and an <span>EmailJS</span> package was used to add functionality to the contact form. 
+                  The focus of this project was to create a <span>Mobile-First UI</span> using <span>React JS</span>, <span>SCSS</span> and <span>Typescript</span>.  Secondary portion of this project was to create a functional contact form.  There is no backend and an <span>EmailJS</span> package was used to add functionality to the contact form. 
                   </div>
                 </p>
               </div>

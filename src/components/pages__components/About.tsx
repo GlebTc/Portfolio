@@ -16,7 +16,7 @@ const About = ({title, id}:{title:string, id:string}) => {
                             <li><span>Business Marketing</span></li>
                         </ul>
                         <br />
-                        First post-secondary education was Business Marketing diploma.  I further continued my education at Brock University, where I obtained a Business Administration degree with honours, with a concentration in Finance.  I have developed strong communication and problem solving skills.  Aside from the curriculum, I have learned to properly manage my time and prioritize my tasks.
+                        After completing a Business Marketing college program, I further continued my education at Brock University, where I obtained a Business Administration degree with honours, with a concentration in Finance.  I have developed strong communication and problem solving skills.  Aside from the curriculum, I have learned to properly manage my time and prioritize my tasks.
                         <br /><br />
                         Professional Background:
                         <br /> <br />
@@ -28,7 +28,7 @@ const About = ({title, id}:{title:string, id:string}) => {
                         <br />
                         I have experience working individually, as part of a team, and as a member of a large organization. Working individually, I am very <span>organized</span>, <span>detail oriented</span> and committed to <span>high level of efficiency</span>. As part of a team, I am very <span>supportive</span>, embrace constructive criticism and always ready to assist.
                         <br /><br />
-                        As an individual, I come from culturally and religiously diverse family and experience of living and working in significantly different environments.
+                        As an individual, I come from culturally and religiously diverse background and experience of living and working in significantly different environments.  I am very personable and enjoy meeting new people.  I am a very <span>positive</span> and <span>optimistic</span> person and I am always looking for ways to improve myself and my surroundings.
                     </div>
                 </p>
             </div>

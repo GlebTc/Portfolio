@@ -16,7 +16,7 @@ const Home = ({title, id}:{title: string, id:string}) => {
                     </ul>
                     <br />
                     Currently I am working on small individual projects to build websites for local businesses, freelance contracting opportunities to improve existing applications as well as projects of my own to extend my knowledge and expertise.<br /><br />
-                    I am also working on implementing <span>TypeScript</span> into my code and exploring <span>Node JS</span> and <span>Express</span> to have better understanding of backend.  I adapt very well to new technologies and am prepared to direct my learning to areas best suited for my employer.
+                    I have recently began implementing <span>TypeScript</span>, <span>GtiHub</span>, <span>Node JS</span>, <span>Express</span> and <span>PostgreSQL</span>. I am open to learning other stack options if it is a better fit.  I adapt very well to new technologies and am prepared to direct my learning to areas best suited for my employer.
                     </div>
                 </p>
 
