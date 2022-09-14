@@ -71,8 +71,13 @@ img {
         object-fit: cover;
     }
 
+    .portfolio__gallery__item {
+        padding: 20px;
+    }
+
     .descritption__text {
-        padding: 8%;
+        padding: 0 2%;
+        font-size: 1rem;
     }
 
 }

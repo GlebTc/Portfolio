@@ -105,5 +105,11 @@ span {
         font-size: 1.2rem;
         line-height: 1.2rem;
     }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 5% !important;
+        border: 5px solid black;
+    }
 }
 
