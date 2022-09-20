@@ -1,10 +1,9 @@
 
-const themeToggler = (darkTheme: boolean, setThemeTitle: any, setDarkTheme: any) => {  
+const themeToggler = (darkTheme: boolean, setDarkTheme: any) => {  
 
     // First option is the dark mode
 
     setDarkTheme(!darkTheme);
-    darkTheme ? setThemeTitle ("Light") : setThemeTitle ("Dark");      
     darkTheme ?
         document.documentElement.style.setProperty ('--BGC__Primary', "rgba(27, 33, 37, 0.8)") : 
         document.documentElement.style.setProperty ('--BGC__Primary', "rgba(144, 175, 197, 0.2)");
@@ -22,7 +21,7 @@ const themeToggler = (darkTheme: boolean, setThemeTitle: any, setDarkTheme: any)
         document.documentElement.style.setProperty ('--Text', "rgba(255, 255, 255, 0.8)") :
         document.documentElement.style.setProperty ('--Text', "rgba(166, 216, 212, 1)");
     darkTheme ?
-        document.documentElement.style.setProperty ('--Btn__BGC', "rgba(44, 206, 44, 0.7)") :
+        document.documentElement.style.setProperty ('--Btn__BGC', "rgba(44, 206, 44, 0.5)") :
         document.documentElement.style.setProperty ('--Btn__BGC', "rgba(12, 76, 12, 0.7)");
     darkTheme ?
         document.documentElement.style.setProperty ('--Active__Text', "rgba(148, 238, 148, 1)") :
