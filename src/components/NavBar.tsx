@@ -1,4 +1,5 @@
 import React from "react";
+import themeToggler from "../utils/ThemeToggler";
 
 
 
@@ -10,6 +11,13 @@ import SocialLinks from "./reusable/SocialLinks";
 
 
 const NavBar: React.FC = () => {
+    const [themeTitle, setThemeTitle] = React.useState("Dark");
+    const [darkTheme, setDarkTheme] = React.useState(true);
+
+        const toggleTheme = () => {
+            themeToggler(darkTheme, setThemeTitle, setDarkTheme);
+        }
+
 
     return(
         <>
@@ -62,6 +70,7 @@ const NavBar: React.FC = () => {
                 >
                     <li className="nav__link">Contact</li>
                 </Link>
+                <button onClick={toggleTheme} id="toggel__theme">{`${themeTitle} Mode`}</button>
             </ul>
         </nav>
 {/* -------------------------------END Main NavBar------------------------------- */}
