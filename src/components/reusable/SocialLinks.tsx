@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAt, faPhone, faFilePdf } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import DarkModeButton from '../../utils/DarkModeButoon'
 
 const SocialLinks = () => {
 
@@ -9,7 +8,7 @@ const SocialLinks = () => {
 
     return (
         <>
-            <DarkModeButton />
+
             <li className="nav__side__link"><a href={resumeLink} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFilePdf} /></a></li>  
             <li className="nav__side__link"><a href="https://www.linkedin.com/in/glebtc/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a></li>
             <li className="nav__side__link"><a href="https://github.com/GlebTc" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a></li>
