@@ -1,4 +1,5 @@
 import React from "react";
+import DarkModeButton from "../utils/DarkModeButoon";
 
 
 
@@ -18,6 +19,7 @@ const NavBar: React.FC = () => {
 {/* -------------------------------Start Main NavBar------------------------------- */}
         <nav className="nav__container">
             <ul className="nav__social__links">
+                <DarkModeButton />
                 <SocialLinks />          
             </ul>
             <ul className="nav__links__container">
@@ -135,7 +137,9 @@ const NavBar: React.FC = () => {
 
 {/* -------------------------------START Left Side Links------------------------------- */}
         <nav className="nav__left__side__container links__side__container__display">
+            
             <ul className="nav__links__left__side__container">
+                <DarkModeButton />
                 <SocialLinks />            
             </ul>
         </nav>
