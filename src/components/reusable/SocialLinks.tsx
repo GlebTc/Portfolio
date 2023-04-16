@@ -4,7 +4,7 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const SocialLinks = () => {
 
-    const resumeLink = "https://www.dropbox.com/s/9ndoub69qkjfk0d/Gleb%20Tchani%20-%20Resume.pdf?dl=0"
+    const resumeLink = "https://www.dropbox.com/s/9isew8aqcoposlb/Gleb%20Tchani%20-%20Resume.pdf?dl=0"
 
     return (
         <>
