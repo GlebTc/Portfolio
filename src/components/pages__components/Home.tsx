@@ -1,57 +1,29 @@
-const Home = ({ title, id }: { title: string; id: string }) => {
+const Home = ({ title, id }: { title: string, id: string }) => {
   return (
-    <section id={id} className="home__page">
-      <h1>{title}</h1>
-      <div className="content__container">
-        <div className="introduction__text">
-          <div className="introduction">
-            <p>Welcome to my website,</p>
-
-            <p>
-              My name is <span>Gleb Tchani</span>. With around two years
-              of experience in working with various frontend technologies, I am
-              a passionate software developer who is always eager to learn and
-              improve my skills. I am particularly attracted to the software
-              development field because of its unlimited opportunities for
-              learning and growth.
-              <br /><br />I am actively seeking an opportunity to work with an
-              experienced team and mentor(s) who can help me achieve mutual
-              growth and success. As you explore my portfolio, you will notice
-              that I have worked with a diverse range of technologies and
-              stacks, including:
-            </p>
-            <ul>
-              <li>
-                <p>
-                  <span>HTML 5</span>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <span>CSS 3 (SCSS)</span>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <span>JavaScript</span>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <span>React JS</span>
-                </p>
-              </li>
-            </ul>
-            <p>
-            Currently, I am involved in several projects that allow me to build websites for local businesses and enhance existing applications as a freelance contractor. In addition to these projects, I am also working on personal projects to broaden my knowledge and expertise.<br /><br />
-
-Recently, I have begun exploring various technologies, such as <span>TypeScript</span>, <span>GitHub</span>, <span>Node JS</span>, <span>Express</span>, and <span>PostgreSQL</span>. While these are my current areas of focus, I am always open to learning new technologies that align with my employer's needs. I adapt well to new challenges and am committed to directing my learning towards areas that will best serve my employer.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
-
-export default Home;
+  <section id={id} className="home__page">
+  <h1>{title}</h1>
+  <div className="content__container">
+  <div className="introduction">
+  <p className="introduction__text">
+  Welcome to my website, <br /><br />
+  My name is <span>Gleb Tchani</span>. I have approximately three years of experience working with various frontend technologies. One of the things that attracts me to software development is the unlimited learning opportunity. There is always room to improve your current knowledge or learn something completely new. I am looking for an opportunity to work with an experienced team and mentor(s) for mutual future growth and success.
+  </p>
+  <p className="introduction__text">
+  As you navigate through my portfolio, you will find that I have experience working with the following stack:
+  </p>
+  <ul>
+  <li><span>Front End</span> - HTML5, CSS3, ReactJS</li>
+  <li><span>Back End</span> - JavaScript, Express, Node TypeScript</li>
+  <li><span>Database Management</span> - PSQL</li>
+  <li><span>Other Skills</span> - Git, JEST, JIRA</li>
+  </ul>
+  <p className="introduction__text">
+  Currently, I am working on individual projects to build websites for local businesses, freelance contracting opportunities to improve existing applications, as well as personal projects that allow me to extend my knowledge and expertise. I am dedicated to continuously improving my skills in front-end development, back-end development, and database management, and actively seek out new learning opportunities. By staying up-to-date with the latest industry trends and technologies, I am able to deliver high-quality solutions that meet the needs of my clients and exceed their expectations.
+  </p>
+  </div>
+  </div>
+  </section>
+  )
+  }
+  
+  export default Home
