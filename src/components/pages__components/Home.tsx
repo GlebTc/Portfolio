@@ -1,3 +1,5 @@
+import React from "react";
+
 const Home = ({ title, id }: { title: string; id: string }) => {
   return (
     <section id={id} className="home__page">
@@ -21,16 +23,16 @@ const Home = ({ title, id }: { title: string; id: string }) => {
           </p>
           <ul>
             <li>
-              <span>Front End</span> - HTML5, CSS3, ReactJS
+              <span style={{fontSize: "15 rem"}}>Front End</span> - <span style={{fontSize: "1 rem", color: "rgba(215, 218, 229, 1)" }}>HTML5, CSS3, ReactJS</span> 
             </li>
             <li>
-              <span>Back End</span> - JavaScript, Express, Node TypeScript
+              <span>Back End</span> - <span style={{fontSize: "1 rem", color: "rgba(215, 218, 229, 1)" }}>JavaScript, Express, Node TypeScript</span> 
             </li>
             <li>
-              <span>Database Management</span> - PSQL
+              <span>Database Management</span> - <span style={{fontSize: "1 rem", color: "rgba(215, 218, 229, 1)" }}>PSQL</span> 
             </li>
             <li>
-              <span>Other Skills</span> - Git, JEST, JIRA
+              <span>Other Skills</span> - <span style={{fontSize: "1 rem", color: "rgba(215, 218, 229, 1)" }}>Git, JEST, JIRA, Postman</span> 
             </li>
           </ul>
           <p className="introduction__text">
