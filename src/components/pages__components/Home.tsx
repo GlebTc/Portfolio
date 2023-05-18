@@ -23,16 +23,16 @@ const Home = ({ title, id }: { title: string; id: string }) => {
           </p>
           <ul>
             <li>
-              <span style={{fontSize: "15 rem"}}>Front End</span> - <span style={{fontSize: "1 rem", color: "rgba(215, 218, 229, 1)" }}>HTML5, CSS3, ReactJS</span> 
+              <span>Front End</span><span style={{color: "rgba(215, 218, 229, 1)" }}> - HTML5, CSS3, ReactJS</span> 
             </li>
             <li>
-              <span>Back End</span> - <span style={{fontSize: "1 rem", color: "rgba(215, 218, 229, 1)" }}>JavaScript, Express, Node TypeScript</span> 
+              <span>Back End</span><span style={{color: "rgba(215, 218, 229, 1)" }}> - JavaScript, Express, Node TypeScript</span> 
             </li>
             <li>
-              <span>Database Management</span> - <span style={{fontSize: "1 rem", color: "rgba(215, 218, 229, 1)" }}>PSQL</span> 
+              <span>Database Management</span><span style={{color: "rgba(215, 218, 229, 1)" }}> - PSQL</span> 
             </li>
             <li>
-              <span>Other Skills</span> - <span style={{fontSize: "1 rem", color: "rgba(215, 218, 229, 1)" }}>Git, JEST, JIRA, Postman</span> 
+              <span>Other Skills</span><span style={{color: "rgba(215, 218, 229, 1)" }}> - Git, JEST, JIRA, Postman</span> 
             </li>
           </ul>
           <p className="introduction__text">
